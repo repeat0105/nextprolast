@@ -17,7 +17,7 @@ import UseImagecom from '@/app/component/UseImagecom.jsx'
 function apppege(props) {
   return (
     <div className="app">
-      <div style={{marginTop: 10px}}>
+      <div style={{marginTop: "10px"}}>
         <UseImagecom />
         
         <div>

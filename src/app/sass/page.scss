@@ -1,0 +1,20 @@
+
+.app {
+  width: 768px;
+  margin: 0 auto;
+  >div {
+    position: relative;
+    top:70px; left: 0;
+
+    >div {
+      position: absolute;
+      top:40px; left:0;
+      padding: 0 40px;
+      >p {
+        padding-bottom: 300px;
+      }
+    }  
+
+  }
+}
+

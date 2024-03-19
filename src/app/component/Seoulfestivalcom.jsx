@@ -1,0 +1,340 @@
+"use client";
+
+import { useEffect, useState } from "react";
+import "@/app/sass/seoulfestivalcom.scss";
+
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/pagination";
+import { Pagination } from "swiper/modules";
+import Link from "next/link";
+
+import { useStore } from "@/app/state/Store";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
+
+import dbaxios from "axios";
+
+import { v4 as uuidv4 } from "uuid";
+
+import { useSession } from "next-auth/react";
+
+import Seoulapicom  from './Seoulapicom.jsx'
+
+export default function Product({ props }) {
+  const { action, mycomdata, testdata, timetam, allheaderaria } = useStore();
+
+  const { data: session, status } = useSession();
+
+  //이건뭐지1
+  const [likestate, setLikestate] = useState(false);
+
+
+
+  const [res, setRes] = useState([])
+
+  //로그인한 사람의 정보만 가져온다.
+  useEffect(() => {
+    dataCrl('user',session.user.email)
+  }, [])
+
+//전체 데이터 쥬스텐드
+  useEffect(() => {
+    action("get");
+
+
+    //이건뭐지1
+    return () => {
+      setLikestate(!likestate);
+    };
+  }, []);
+
+  // setNewdata(testdata) 에러남
+
+  const detaillocalstorege = (item) => {
+    localStorage.setItem("GUNAME", item.GUNAME);
+    localStorage.setItem("MAIN_IMG", item.MAIN_IMG);
+    localStorage.setItem("LOT", item.LOT);
+    localStorage.setItem("LAT", item.LAT);
+    localStorage.setItem("DATE", item.DATE);
+    localStorage.setItem("ORG_NAME", item.ORG_NAME);
+    localStorage.setItem("HMPG_ADDR", item.HMPG_ADDR);
+    localStorage.setItem("TITLE", item.TITLE);
+    localStorage.setItem("ORG_LINK", item.ORG_LINK);
+  };
+
+  const [clickarea, setClickarea] = useState("");
+
+  const [clickrandertab, setClickrandertab] = useState(0)
+
+  function areaclick(e, i) {
+    setClickrandertab(i)
+    setClickarea(e.target.textContent);
+  }
+
+  //메뉴바 아코디언 클릭시
+  useEffect(() => {
+    setClickarea(allheaderaria.e)
+    setClickrandertab(allheaderaria.i)
+  },[allheaderaria.e])
+
+
+
+  const [aria, setAria] = useState([
+    "강북구, 중구, 용산구, 성동구, 광진구, 동대문구, 중랑구, 성북구, 종로구, 도봉구, 노원구, 은평구, 서대문구, 마포구, 양천구, 강서구, 구로구, 금천구, 영등포구, 동작구, 관악구, 서초구, 강남구, 송파구, 강동구",
+  ]);
+
+
+  let dday;
+  let serverdelefind;
+
+  async function dataCrl(type, data) {
+    // console.log(data);
+    let res;
+    switch (type) {
+      case "user":
+        res = await dbaxios.get(`/api?email=${data}`);
+        break;
+      case "two":
+        res = await dbaxios.get("api/two/" + data);
+        break;
+      case "insert":
+        res = await dbaxios.post("/api", data);
+        break;
+      case "delete":
+        res = await dbaxios.delete("/api/" + data);
+        break;
+      case "put":
+        res = await dbaxios.put("/api/0", { id: "0", title: "10프로젝트" });
+        break;
+    }
+    setRes(res.data)
+    
+  }
+  
+
+  const [like, setLike] = useState({ idstate: uuidv4() });
+
+  let likedata;
+  let dislikedata;
+  let likeclick;
+  const handleClick = (e, item) => {
+    e.stopPropagation();
+    console.log(!e.target.previousSibling.checked);
+    if (!e.target.previousSibling.checked) {
+      likeclick = { idstate: uuidv4() };
+      setLike(likeclick);
+
+      
+      // console.log({ ...item, check: !item.check });
+
+      likedata = {
+        email: session.user.email,
+        id: like.idstate,
+        ...item,
+        check: !item.check 
+      };
+      // console.log(likedata)
+      // e.target.firstChild.classList.add("activeone");
+      // e.target.firstChild.classList.add("activetwo");
+      dataCrl("insert", likedata);
+    } else {
+      // e.target.firstChild.classList.remove("activeone");
+      // e.target.firstChild.classList.remove("activetwo");
+
+      console.log(item.check);
+
+      dataCrl("two", item.DATE);
+    }
+  };
+  // console.log(testdata,'testdata')
+  
+  return (
+    <>
+      <div className="festivaltitletop">
+        <div className="festivaltitle">
+          <p>찾고 싶은 축제!</p>
+          <p>지역을 선택해주세요!</p>
+        </div>
+      </div>
+      {/*지역구 스와이퍼  */}
+      <div className="areatopbest">
+        <Swiper
+          slidesPerView={3}
+          spaceBetween={40}
+          pagination={{
+            clickable: true,
+          }}
+          modules={[Pagination]}
+          className="swiper"
+        >
+          <div className="areatop">
+            {aria[0].split(", ").map((a, i) => {
+              return (
+                <SwiperSlide key={i} className="swiperwidth">
+                  <div className="area" onClick={(e)=>{areaclick(e,i)}}>
+                    <p
+                      style={{
+                        backgroundColor: clickrandertab === i ? "#0056b3" : "#eef5f8",
+                        color: clickrandertab === i ? '#fff' : '#000',
+                        borderRadius: clickrandertab === i ? '15px' : '15px',
+                            
+                      }}
+                    >{a}</p>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </div>
+        </Swiper>
+      </div>
+      
+
+      {/*  클릭한 지역구만 */}
+      {clickarea ? (
+        // clickarea
+        <div className="seoulapi">
+          <p>
+            <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
+            서울 {clickarea} 축제{" "}
+          </p>
+          {/* 전체데이터가져와서 뿌려주는데 클릭시일때 /  */}
+          {testdata
+            .filter((obj, i) => {
+              
+              return clickarea === obj.GUNAME;
+            })
+            
+            .map((objj, j) => {
+              
+              dday = new Date(objj.DATE.split("~")[0]).getTime() - timetam;
+              dday = Math.ceil(dday / (1000 * 60 * 60 * 24));
+
+              return (
+                <div key={j}>
+                  <div>
+                    <Link
+                      href="/detail"
+                      onClick={() => {
+                        detaillocalstorege({
+                          GUNAME: objj.GUNAME,
+                          MAIN_IMG: objj.MAIN_IMG,
+                          LOT: objj.LOT,
+                          LAT: objj.LAT,
+                          DATE: objj.DATE,
+                          ORG_NAME: objj.ORG_NAME,
+                          HMPG_ADDR: objj.HMPG_ADDR,
+                          dday: dday,
+                          TITLE: objj.TITLE,
+                          ORG_LINK: objj.ORG_LINK,
+                        });
+                      }}
+                    >
+                      <img
+                        src={objj.MAIN_IMG}
+                        alt="backimg"
+                        width="300"
+                        height="300"
+                      />
+                      <div>
+                        <div>
+                          <div>
+                            <p>
+                              D{dday >= 0 ? "-" + dday : "+" + Math.abs(dday)}
+                            </p>
+                          </div>
+
+                          {/* <p>{objj.TITLE}</p> */}
+                          <p>
+                            {objj.IS_FREE === "유료"
+                              ? objj.IS_FREE
+                              : objj.IS_FREE}
+                          </p>
+                        </div>
+                      </div>
+                    </Link>
+                    <div>
+                      <div>
+                        <p>{objj.ORG_NAME}</p>
+                        <Seoulapicom handleClick={handleClick} dday={dday} objj={objj} res={res}/>
+                    
+                      </div>
+                      <p>{objj.DATE}</p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+        </div>
+      ) : (
+        // {/* 처음디폴트값 */}
+        <div className="seoulapi">
+          <p>
+            <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
+            서울 축제
+          </p>
+          {testdata?.slice(0, 5).map((obj, i) => {
+            dday = new Date(obj.DATE.split("~")[0]).getTime() - timetam;
+            dday = Math.ceil(dday / (1000 * 60 * 60 * 24)); //이게 d-day
+
+            return (
+              <div key={i}>
+                <div>
+                  <Link 
+                    href="/detail"
+                    onClick={() => {
+                      detaillocalstorege({
+                        GUNAME: obj.GUNAME,
+                        MAIN_IMG: obj.MAIN_IMG,
+                        LOT: obj.LOT,
+                        LAT: obj.LAT,
+                        DATE: obj.DATE,
+                        ORG_NAME: obj.ORG_NAME,
+                        HMPG_ADDR: obj.HMPG_ADDR,
+                        dday: dday,
+                        TITLE: obj.TITLE,
+                        ORG_LINK: obj.ORG_LINK,
+                      });
+                    }}
+                    >
+                    <img
+                      src={obj.MAIN_IMG}
+                      alt="backimg"
+                      width="300"
+                      height="300"
+                    />
+                    <div>
+                      <div>
+                        <div>
+                          <p>
+                            D{dday >= 0 ? "-" + dday : "+" + Math.abs(dday)}
+                          </p>
+                        </div>
+
+                        <p>
+                          {obj.IS_FREE === "유료" ? obj.IS_FREE : obj.IS_FREE}
+                        </p>
+                      </div>
+                    </div>
+                  </Link>
+                  <div>
+                    <div>
+                      <p>{obj.ORG_NAME}</p>
+                      <Seoulapicom handleClick={handleClick} dday={dday} objj={obj} res={res}/>
+                    </div>
+                    <p>{obj.DATE}</p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </>
+  );
+}
+
+
+
+

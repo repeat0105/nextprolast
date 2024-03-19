@@ -197,7 +197,7 @@ export default function Product({ props }) {
         <div className="seoulapi">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 {clickarea} 축제{" "}
+            서울 {clickarea} 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;{testdata.length}
           </p>
           {/* 전체데이터가져와서 뿌려주는데 클릭시일때 /  */}
           {testdata
@@ -272,7 +272,7 @@ export default function Product({ props }) {
         <div className="seoulapi">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 축제
+            서울 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;{testdata.length}
           </p>
           {testdata?.slice(0, 5).map((obj, i) => {
             dday = new Date(obj.DATE.split("~")[0]).getTime() - timetam;

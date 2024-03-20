@@ -244,7 +244,7 @@ function Mycom(props) {
         <div className="seoulapi1">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 {clickarea} 축제,&nbsp;&nbsp;등록한 축제&nbsp;&nbsp;{mongodbdata.length}
+            서울 {clickarea} 축제,&nbsp;&nbsp;등록한 축제&nbsp;&nbsp;({mongodbdata.length})
           </p>
           
             {mongodbdata
@@ -315,7 +315,7 @@ function Mycom(props) {
         <div className="seoulapi1">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 축제,&nbsp;&nbsp;등록한 축제&nbsp;&nbsp;{mongodbdata.length}
+            서울 축제,&nbsp;&nbsp;등록한 축제&nbsp;&nbsp;({mongodbdata.length})
           </p>
           
             {mongodbdata?.slice(0, 3).map((obj, i) => {

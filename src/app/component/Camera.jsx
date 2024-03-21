@@ -31,7 +31,7 @@ function Camera(props) {
 
     }  
 
-
+  const [camblob, setCamblob] = useState()
     const capture = ()=>{
         const imgSrc = webcam.current.getScreenshot();
         console.log(imgSrc)
@@ -42,6 +42,7 @@ function Camera(props) {
 
         console.log(formData)
 
+        setCamblob(blob)
         setWebcamImg(imgSrc);
     }
     // useEffect(() => {
@@ -53,7 +54,7 @@ function Camera(props) {
       e.preventDefault();
       const formdata = new FormData(e.target);
       const file = formdata.get('photo')
-      // console.log(formdata.get('photo').name, e.target.photo, e.target.photo.files[0].name )
+      console.log(formdata.get('photo').name, e.target.photo, e.target.photo.files[0].name )
       // console.log(Object.fromEntries(formdata))
       // const ref = ref(storage, 'test-id'+'파일명.jpg');
   
@@ -121,7 +122,7 @@ function Camera(props) {
                 videoConstraints={{facingMode:{ exact: "environment" }}} //후면
             />
    
-            <button onClick={capture}> Capture photo </button>
+            <button style={{width:'100%'}} onClick={capture}> Capture photo1 {webcamImg}, blo1 {camblob} </button>
             
             <img src={webcamImg} width="300" />
 

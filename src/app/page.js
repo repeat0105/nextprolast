@@ -10,6 +10,7 @@ import github from "/public/kakaolog/github_icon.png";
 import Link from "next/link";
 import Loginpage from "./(pages)/login/page";
 import UseImagecom from '@/app/component/UseImagecom.jsx'
+import Camera from "./component/Camera";
 
 
 
@@ -25,7 +26,7 @@ function apppege(props) {
           <p>
             재충전,힐링,휴식 중<br /> 하나만 달성하기
           </p>
-
+          {/* <Camera /> */}
           <Loginpage />
           <Link href="https://github.com/login" target="_blank">
             <Image src={github} alt="" />

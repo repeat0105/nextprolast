@@ -21,6 +21,7 @@ import { faPhone, faHome } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 import KakaoMap from "./Kakao-map";
 import { useRouter } from "next/navigation";
+import Camera from "./Camera";
 
 function Detilcom(props) {
   const { action, seouldata, testdata, timetam } = useStore();
@@ -194,6 +195,8 @@ function Detilcom(props) {
           <section>
             <h3>{datas.ORG_NAME} 예시 가이드</h3>
           </section>
+
+          <Camera /> 
         </div>
       ) : (
         "Healing Line ...."

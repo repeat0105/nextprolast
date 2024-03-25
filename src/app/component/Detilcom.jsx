@@ -111,14 +111,7 @@ function Detilcom(props) {
                 </div>
               </div>
             </div>
-            {/* <section className="scrub">
-              <label className="toggler-wrapper style-26">
-                <input type="checkbox" />
-                <div className="toggler-slider">
-                  <div className="toggler-knob"></div>
-                </div>
-              </label>
-            </section> */}
+    
 
             <div>
               <div>
@@ -173,7 +166,6 @@ function Detilcom(props) {
               <span>공식 홈페이지</span>
               <FontAwesomeIcon icon={faHome} />
             </Link>
-            {/* 추가 가이드<p><FontAwesomeIcon icon={faCalendar} />{datas.DATE}</p> */}
           </div>
           <section className="kakaomap">
             <h2>길 찾기</h2>
@@ -189,7 +181,7 @@ function Detilcom(props) {
             <FontAwesomeIcon icon={faBackward} />
           </button>
           <button id="pickcur" title="남기고 싶은 사진">
-            <Image src="/detail/ellipse.png" width={50} height={50} />
+            <Image src="/detail/ellipse.png" width={50} height={50} alt='aa'/>
           </button>
 
           <section>

@@ -280,3 +280,24 @@
     }
   }
 }
+
+@media screen and (min-width: 760px) {
+  .areatopbest {
+    margin: 0 70px 0 0px !important;
+  }
+}
+@media screen and (max-width: 760px) {
+  .calender_wrap > div {
+    position: relative;
+    top: 30px;
+    left: -230px;
+  }
+  .mycomscss {
+    > div:nth-of-type(2) {
+      width: 67%;
+    }
+  }
+  .seoulapi1 > div {
+    margin-right: 100px;
+  }
+}

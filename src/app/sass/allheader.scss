@@ -300,3 +300,14 @@ h1 {
   display: block;
   z-index: 10;
 }
+
+@media screen and (max-width: 760px) {
+  .header {
+    width: 500px;
+    max-width: 500px;
+  }
+  .articletop {
+    width: 468px;
+    max-width: 468px;
+  }
+}

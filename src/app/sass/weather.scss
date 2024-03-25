@@ -47,3 +47,16 @@
         }
     }
 }
+
+@media screen and (max-width: 760px) {
+    .weatherscsstop {
+      width: 430px;
+      max-width: 430px;
+      .cicon {
+        > div:nth-of-type(1) {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+  

@@ -187,3 +187,20 @@
   .toggler-knob:after {
   content: "1";
 }
+
+
+@media screen and (max-width: 760px) {
+  .festivaltitle {
+    font-size: 37px;
+  }
+  .swiper-slide {
+    > div {
+      width: 100px;
+      margin: 0;
+    }
+  }
+  .swiperwidth {
+    width: 100px !important;
+    margin: 0;
+  }
+}

@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyCDwjI1QqBUPo2EmFRXcY1vcULcV3UcMf4",
+    apiKey: process.env.NEXT_PUBLIC_APIKEY,
     authDomain: "healinglineimg.firebaseapp.com",
     projectId: "healinglineimg",
     storageBucket: "healinglineimg.appspot.com",
     messagingSenderId: "279670227337",
-    appId: "1:279670227337:web:bf33a0f49a3de2d5c6e158",
+    appId: process.env.NEXT_PUBLIC_APPID,
     measurementId: "G-G2RCJN4HJD"
 };
 

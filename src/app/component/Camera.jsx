@@ -53,13 +53,13 @@ function Camera(props) {
     const storageref = ref(storage, `test-id/${file.name}`);
     uploadBytes(storageref, file).then(async (snapshot) => {
       
-      const url =
+    const url =
       (await getDownloadURL(ref(storage, snapshot.metadata.fullPath))) +
-      `?time=${new Date().getTime()}`;
-    setImgList((prevImgList) => [
-      ...prevImgList,
-      { url, fullPath: snapshot.metadata.fullPath },
-    ]);
+        `?time=${new Date().getTime()}`;
+        setImgList((prevImgList) => [
+        ...prevImgList,
+        { url, fullPath: snapshot.metadata.fullPath },
+      ]);
     });
   };
 
@@ -75,11 +75,13 @@ function Camera(props) {
     const storageref = ref(storage, "test-id/" + file.name);
     uploadBytes(storageref, file).then(async (snapshot) => {
   
-      const url = await getDownloadURL(
-        ref(storage, snapshot.metadata.fullPath)
-      );
-
-      setImgList([...imgList, url]);
+      const url =  
+      (await getDownloadURL(ref(storage, snapshot.metadata.fullPath))) +
+      `?time=${new Date().getTime()}`;
+      setImgList((prevImgList) => [
+      ...prevImgList,
+      { url, fullPath: snapshot.metadata.fullPath },
+    ]);
     });
   }
 

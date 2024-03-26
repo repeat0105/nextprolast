@@ -301,3 +301,25 @@
     margin-right: 100px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .mycomscss {
+    padding: 0 40px;
+  }
+  .mycomscss {
+    > div:nth-of-type(2) {
+      width: 57%;
+    }
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .mycomscss {
+    padding: 0 20px;
+  }
+  .mycomscss {
+    > div:nth-of-type(2) {
+      width: 42%;
+    }
+  }
+}

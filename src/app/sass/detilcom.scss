@@ -292,6 +292,9 @@
   >button:nth-of-type(1) {
     margin-bottom: 10px;
   }
+  h2 {
+    padding:10px 0;
+  }
 }
 .picurupload1 {
   margin-top: 20px;
@@ -305,7 +308,7 @@
         .picurupload3 {
           position: absolute;
           bottom: 20px;
-          right: 20px;
+          left: 20px;
         }
     }
 }
@@ -351,9 +354,13 @@
   }
   .webcamtop {
     width:100%;
+ 
     >video {
       display: block;
       margin-bottom: 10px;
+    }
+    .picurupload2 {
+      display: block;
     }
   }
 }
@@ -378,6 +385,11 @@
   .kakaomap {
     > div:nth-of-type(1) {
       width: 47%;
+    }
+  }
+  .webcamtop {
+    form {
+      display: none;
     }
   }
 }

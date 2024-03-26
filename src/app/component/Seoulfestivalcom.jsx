@@ -198,7 +198,7 @@ export default function Product({ props }) {
         <div className="seoulapi">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 {clickarea} 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length === 0 ? "Loging...." : testdata.length})
+            서울 {clickarea} 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length === 0 ? "Loading...." : testdata.length})
           </p>
       
           {testdata
@@ -274,7 +274,7 @@ export default function Product({ props }) {
         <div className="seoulapi">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length === 0 ? "Loging...." : testdata.length})
+            서울 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length === 0 ? "Loading...." : testdata.length})
           </p>
           {testdata?.slice(0, 5).map((obj, i) => {
             dday = new Date(obj.DATE.split("~")[0]).getTime() - timetam;

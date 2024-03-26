@@ -307,7 +307,17 @@ h1 {
     max-width: 500px;
   }
   .articletop {
-    width: 468px;
-    max-width: 468px;
+    width: 480px;
+    max-width: 480px;
+  }
+}
+@media screen and (max-width: 486px) {
+  .header {
+    width: 400px;
+    max-width: 400px;
+  }
+  .articletop {
+    width: 380px;
+    max-width: 380px;
   }
 }

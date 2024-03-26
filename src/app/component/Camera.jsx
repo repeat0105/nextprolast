@@ -117,7 +117,7 @@ function Camera(props) {
   }, []);
 
   return (
-    <div>
+    <div className="webcamtop">
       <Webcam
         ref={webcam}
         audio={false}
@@ -128,12 +128,12 @@ function Camera(props) {
         videoConstraints={{ facingMode: { exact: "environment" } }} //후면
       />
 
+      <img src={webcamImg} width="300" alt="photo" />
       <button onClick={capture}> Capture photo </button>
 
-      <img src={webcamImg} width="300" alt="aa" />
 
-      <article>
-        <h2>파일등록</h2>
+      <article >
+        <h2>사진등록</h2>
         <form onSubmit={upload}>
           <p>
             <input type="file" name="photo" />
@@ -142,11 +142,12 @@ function Camera(props) {
         </form>
       </article>
 
-      <article>
+      <article className="picurupload1">
         {imgList.map((obj, k) => (
-          <p key={k} style={{ display: "inline-block" }}>
+          <p className="picurupload2" key={k} >
             <img src={obj.url}  width="200" height="200" alt="photo"/>
             <button
+              className="picurupload3"
               onClick={() => {
                 delImage(obj.fullPath);
               }}

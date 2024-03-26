@@ -181,7 +181,7 @@ function Detilcom(props) {
             <FontAwesomeIcon icon={faBackward} />
           </button>
           <button id="pickcur" title="남기고 싶은 사진">
-            <Image src="/detail/ellipse.png" width={50} height={50} alt='aa'/>
+            <Image src="/detail/ellipse.png" width={50} height={50} alt=''/>
           </button>
 
           <section>

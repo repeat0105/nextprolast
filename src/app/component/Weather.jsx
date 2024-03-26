@@ -15,7 +15,7 @@ function WeatherInfo() {
 
     try {
       const response = await axios.get('/api/weader');
-      // console.log(response)
+
       setWeatherData(response.data);
     } catch (error) {
       console.error('Error fetching data from API:', error);

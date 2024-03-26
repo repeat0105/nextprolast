@@ -3,9 +3,9 @@ import { NextResponse } from 'next/server';
 
 export async function GET(req) {
 
-    // 여기서 오픈API 요청을 보내고 응답을 반환합니다.    
+
     try {
-        const res = await axios.get(process.env.NEXT_PUBLIC_WEATHER_URL); // 여기에 오픈API URL을 넣으세요.
+        const res = await axios.get(process.env.NEXT_PUBLIC_WEATHER_URL); 
         const data = res.data;
         return NextResponse.json(data);
     } catch (error) {

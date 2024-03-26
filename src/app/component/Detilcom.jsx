@@ -64,7 +64,6 @@ function Detilcom(props) {
 
   useEffect(() => {
     let finddataa = createdataa.detailjsondata.filter((a, i) => {
-      // console.log(datas.GUNAME === a.GUNAME, datas.MAIN_IMG === a.MAIN_IMG)
       return datas.GUNAME === a.GUNAME && datas.MAIN_IMG === a.MAIN_IMG;
     });
     setFinddata(finddataa);

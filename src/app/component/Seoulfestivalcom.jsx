@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import "@/app/sass/seoulfestivalcom.scss";
+import { useStore } from "@/app/state/Store";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -9,7 +10,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import Link from "next/link";
 
-import { useStore } from "@/app/state/Store";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
@@ -22,35 +23,38 @@ import { useSession } from "next-auth/react";
 
 import Seoulapicom  from './Seoulapicom.jsx'
 
+import useSWR, { SWRConfig } from "swr";
+import { Suspense } from "react";
+
+
 export default function Product({ props }) {
   const { action, mycomdata, testdata, timetam, allheaderaria } = useStore();
 
   const { data: session, status } = useSession();
 
-  //이건뭐지1
+
   const [likestate, setLikestate] = useState(false);
 
-
-
+  
   const [res, setRes] = useState([])
 
-  //로그인한 사람의 정보만 가져온다.
+
   useEffect(() => {
     dataCrl('user',session.user.email)
   }, [])
 
-//전체 데이터 쥬스텐드
+
   useEffect(() => {
     action("get");
 
 
-    //이건뭐지1
+ 
     return () => {
       setLikestate(!likestate);
     };
   }, []);
 
-  // setNewdata(testdata) 에러남
+
 
   const detaillocalstorege = (item) => {
     localStorage.setItem("GUNAME", item.GUNAME);
@@ -73,7 +77,7 @@ export default function Product({ props }) {
     setClickarea(e.target.textContent);
   }
 
-  //메뉴바 아코디언 클릭시
+  
   useEffect(() => {
     setClickarea(allheaderaria.e)
     setClickrandertab(allheaderaria.i)
@@ -90,7 +94,7 @@ export default function Product({ props }) {
   let serverdelefind;
 
   async function dataCrl(type, data) {
-    // console.log(data);
+
     let res;
     switch (type) {
       case "user":
@@ -127,7 +131,7 @@ export default function Product({ props }) {
       setLike(likeclick);
 
       
-      // console.log({ ...item, check: !item.check });
+
 
       likedata = {
         email: session.user.email,
@@ -135,20 +139,17 @@ export default function Product({ props }) {
         ...item,
         check: !item.check 
       };
-      // console.log(likedata)
-      // e.target.firstChild.classList.add("activeone");
-      // e.target.firstChild.classList.add("activetwo");
+
       dataCrl("insert", likedata);
     } else {
-      // e.target.firstChild.classList.remove("activeone");
-      // e.target.firstChild.classList.remove("activetwo");
+
 
       console.log(item.check);
 
       dataCrl("two", item.DATE);
     }
   };
-  // console.log(testdata,'testdata')
+
   
   return (
     <>
@@ -158,7 +159,7 @@ export default function Product({ props }) {
           <p>지역을 선택해주세요!</p>
         </div>
       </div>
-      {/*지역구 스와이퍼  */}
+ 
       <div className="areatopbest">
         <Swiper
           slidesPerView={3}
@@ -191,15 +192,16 @@ export default function Product({ props }) {
       </div>
       
 
-      {/*  클릭한 지역구만 */}
+
       {clickarea ? (
-        // clickarea
+               <SWRConfig value={{ suspense: true }} >
+        <Suspense fallback="Loading...">
         <div className="seoulapi">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
             서울 {clickarea} 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length})
           </p>
-          {/* 전체데이터가져와서 뿌려주는데 클릭시일때 /  */}
+      
           {testdata
             .filter((obj, i) => {
               
@@ -245,7 +247,7 @@ export default function Product({ props }) {
                             </p>
                           </div>
 
-                          {/* <p>{objj.TITLE}</p> */}
+                       
                           <p>
                             {objj.IS_FREE === "유료"
                               ? objj.IS_FREE
@@ -267,8 +269,11 @@ export default function Product({ props }) {
               );
             })}
         </div>
+        </Suspense>
+        </SWRConfig>
       ) : (
-        // {/* 처음디폴트값 */}
+        <SWRConfig value={{ suspense: true }} >
+        <Suspense fallback="Loading...">
         <div className="seoulapi">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
@@ -276,8 +281,7 @@ export default function Product({ props }) {
           </p>
           {testdata?.slice(0, 5).map((obj, i) => {
             dday = new Date(obj.DATE.split("~")[0]).getTime() - timetam;
-            dday = Math.ceil(dday / (1000 * 60 * 60 * 24)); //이게 d-day
-
+            dday = Math.ceil(dday / (1000 * 60 * 60 * 24)); 
             return (
               <div key={i}>
                 <div>
@@ -330,6 +334,8 @@ export default function Product({ props }) {
             );
           })}
         </div>
+        </Suspense>
+        </SWRConfig>
       )}
     </>
   );

@@ -5,7 +5,7 @@ const client = new MongoClient(uri);
 
 export const loginlikedb = async (type, body) => {
   let data;
-  // console.log( body)
+
 
   await client.connect();
   let db = client.db("nextpro");
@@ -25,7 +25,7 @@ export const loginlikedb = async (type, body) => {
       break;
     case "detailtwo":
       data = await collection.deleteOne(body);
-      // console.log(321231,data, findOne)
+    
       break;
 
     case "delete":
@@ -40,7 +40,6 @@ export const loginlikedb = async (type, body) => {
       break;
   }
   if (type != "detail") data = await collection.find().toArray();
-  // console.log(data,'===================')
-  // client.close();
+
   return data;
 };

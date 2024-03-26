@@ -6,7 +6,7 @@ export async function GET(req, { params }) {
 }
 
 export async function DELETE(req, { params }) {
-  // console.log(123123123, params)
+
   const data = await loginlikedb("delete", {id: params.id} );
   return Response.json(data);
 }

@@ -6,11 +6,10 @@ import { useEffect, useState } from "react";
 
 
 export default function Seoulapicom({handleClick,dday,objj, res}) {
-    // console.log(res, objj)
+ 
  
     const {my} = Object.fromEntries(useSearchParams());
-    // console.log(my.get('my'));
-    // console.log(my ? Boolean(true)  : "my아닐때");
+
     
     
     
@@ -20,7 +19,7 @@ export default function Seoulapicom({handleClick,dday,objj, res}) {
     
         if(res.length){
             let c=[];
-            // console.log(objj,"=======================")
+           
             c = res.filter(obj=>obj.MAIN_IMG === objj.MAIN_IMG);
             c.length ? setCheck(true) :  setCheck(false);
         }
@@ -57,7 +56,7 @@ export default function Seoulapicom({handleClick,dday,objj, res}) {
                 </p>
                 <div
                 className="toggler-knob"
-                // onClick={(e) => e.stopPropagation()}
+                
                 ></div>
             </div>
             </label>

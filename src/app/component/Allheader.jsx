@@ -79,12 +79,12 @@ function Allheader(props) {
 
   const [accordionstate, setAccordionstate] = useState({e:"강남구", i:0})
   const accordionaria = (e, i) => {
-    // console.log(e.target.textContent, i)
+ 
     setAccordionstate(
       {e:e.target.textContent, i:i}
     )
   }
-  // console.log(accordionstate)
+
   useEffect(() => {
     action('allaria', accordionstate)
   }, [accordionstate])

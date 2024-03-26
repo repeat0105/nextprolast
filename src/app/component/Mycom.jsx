@@ -1,5 +1,5 @@
 "use client";
-
+import { useStore } from "@/app/state/Store";
 import CalenderList from "./calender";
 import "../sass/calender.scss";
 
@@ -21,7 +21,7 @@ import Image from "next/image";
 
 import djaldata from "../createdata/createdata.json";
 
-import { useStore } from "@/app/state/Store";
+
 import React, { useEffect, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 
@@ -80,7 +80,7 @@ function Mycom(props) {
   const [clickrandertab, setClickrandertab] = useState(0)
   const [clickarea, setClickarea] = useState("");
   function areaclick(e, i) {
-    // console.log(e.target.textContent);
+    
     setClickrandertab(i)
     setClickarea(e.target.textContent);
   }
@@ -123,10 +123,10 @@ function Mycom(props) {
         res = await mydbaxios.put("/api/0", { id: "0", title: "10프로젝트" });
         break;
     }
-    // setRes(res.data)
+ 
     
   }
-  //console.log(deletefind); // 왜 한개가 안찍히지?
+
 
 
 
@@ -141,7 +141,7 @@ function Mycom(props) {
       
 
       
-      // console.log({ ...item, check: !item.check });
+ 
 
       likedata = {
         email: session.user.email,
@@ -149,13 +149,10 @@ function Mycom(props) {
         ...item,
         check: !item.check 
       };
-      // console.log(likedata)
-      // e.target.firstChild.classList.add("activeone");
-      // e.target.firstChild.classList.add("activetwo");
+ 
       dataCrl("insert", likedata);
     } else {
-      // e.target.firstChild.classList.remove("activeone");
-      // e.target.firstChild.classList.remove("activetwo");
+  
 
       console.log(item.check);
       setLike(!like);
@@ -240,7 +237,7 @@ function Mycom(props) {
 
       {/* 클릭한 지역구만 */}
       {clickarea ? (
-        // clickarea
+   
         <div className="seoulapi1">
           <p>
             <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
@@ -320,7 +317,7 @@ function Mycom(props) {
           
             {mongodbdata?.slice(0, 3).map((obj, i) => {
               dday = new Date(obj.DATE.split("~")[0]).getTime() - timetam;
-              dday = Math.ceil(dday / (1000 * 60 * 60 * 24)); //이게 d-day
+              dday = Math.ceil(dday / (1000 * 60 * 60 * 24)); 
 
               return (
                 <div key={i}>

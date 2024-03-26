@@ -18,15 +18,12 @@ function Camera(props) {
 
   const [preImage, setPreImage] = useState();
 
-
   const [nextblob, setNextblob] = useState(null);
 
   const [captureCount, setCaptureCount] = useState(0);
 
-
   const capture = () => {
     const imgSrc = webcam.current.getScreenshot();
-   
 
     const blob = new Blob([imgSrc], { type: "image/jpeg" });
     const formData = new FormData();
@@ -38,31 +35,27 @@ function Camera(props) {
     fetch(imgSrc)
       .then((res) => res.blob())
       .then((blob) => {
-    
         const file = new File([blob], `capture_${captureCount}.jpg`, {
           type: "image/jpeg",
         });
         uploadImageToFirebase(file);
-        
+
         setCaptureCount(captureCount + 1);
       });
   };
 
-
   const uploadImageToFirebase = (file) => {
     const storageref = ref(storage, `test-id/${file.name}`);
     uploadBytes(storageref, file).then(async (snapshot) => {
-      
       const url =
-      (await getDownloadURL(ref(storage, snapshot.metadata.fullPath))) +
-      `?time=${new Date().getTime()}`;
-    setImgList((prevImgList) => [
-      ...prevImgList,
-      { url, fullPath: snapshot.metadata.fullPath },
-    ]);
+        (await getDownloadURL(ref(storage, snapshot.metadata.fullPath))) +
+        `?time=${new Date().getTime()}`;
+      setImgList((prevImgList) => [
+        ...prevImgList,
+        { url, fullPath: snapshot.metadata.fullPath },
+      ]);
     });
   };
-
 
   const [imgList, setImgList] = useState([]);
 
@@ -71,10 +64,8 @@ function Camera(props) {
     const formdata = new FormData(e.target);
     const file = formdata.get("photo");
 
-
     const storageref = ref(storage, "test-id/" + file.name);
     uploadBytes(storageref, file).then(async (snapshot) => {
-  
       const url = await getDownloadURL(
         ref(storage, snapshot.metadata.fullPath)
       );
@@ -87,7 +78,7 @@ function Camera(props) {
     const storageRef = ref(storage, "test-id/");
     listAll(storageRef).then(async (res) => {
       let imgArr = [];
-  
+
       for (let value of res.items) {
         const url = await getDownloadURL(value);
         imgArr.push({ url, fullPath: value.fullPath });
@@ -97,12 +88,11 @@ function Camera(props) {
     });
   }
 
-
   function delImage(fullPath) {
-    const fileRef = ref(storage, fullPath); 
+    const fileRef = ref(storage, fullPath); // fullPath를 사용하여 파일 참조 생성
     deleteObject(fileRef)
       .then(() => {
-      
+        console.log("파일 삭제 성공:", fullPath);
         setImgList((currentList) =>
           currentList.filter((item) => item.fullPath !== fullPath)
         );
@@ -130,7 +120,7 @@ function Camera(props) {
 
       <button onClick={capture}> Capture photo </button>
 
-      <img src={webcamImg} width="300" alt="aa" />
+      <img src={webcamImg} width="300" />
 
       <article>
         <h2>파일등록</h2>
@@ -145,7 +135,7 @@ function Camera(props) {
       <article>
         {imgList.map((obj, k) => (
           <p key={k} style={{ display: "inline-block" }}>
-            <img src={obj.url}  width="200" height="200" alt="photo"/>
+            <img src={obj.url} alt="" width="200" height="200" />
             <button
               onClick={() => {
                 delImage(obj.fullPath);

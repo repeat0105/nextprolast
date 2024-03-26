@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap");
+
+body {
+  background-color: #e6ecff;
+}
+main {
+  font-family: "Anek Bangla", sans-serif;
+  max-width: 768px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+}

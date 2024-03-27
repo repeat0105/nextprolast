@@ -125,12 +125,10 @@ export default function Product({ props }) {
   let likeclick;
   const handleClick = (e, item) => {
     e.stopPropagation();
-    console.log(!e.target.previousSibling.checked);
+    
     if (!e.target.previousSibling.checked) {
       likeclick = { idstate: uuidv4() };
       setLike(likeclick);
-
-      
 
 
       likedata = {
@@ -142,9 +140,6 @@ export default function Product({ props }) {
 
       dataCrl("insert", likedata);
     } else {
-
-
-      console.log(item.check);
 
       dataCrl("two", item.DATE);
     }

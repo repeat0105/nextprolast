@@ -126,7 +126,7 @@
             > div:nth-of-type(2) {
               position: relative;
               top: -7px;
-              left: 130px;
+              left: 200px;
               height: 20px;
               cursor: pointer;
               > span:nth-of-type(1),
@@ -138,7 +138,7 @@
               }
               > span:nth-of-type(1) {
                 position: absolute;
-                top: 14px;
+                top: 12px;
                 left: 0px;
                 transform: rotate(45deg);
               }
@@ -321,6 +321,20 @@
 @media screen and (max-width: 760px) {
   .detilcomscss {
     padding-left: 20%;
+    >div:nth-of-type(2) {
+      >div:nth-of-type(2) {
+        >div{
+          >div{
+            width:400px;
+            >div{
+              >div:nth-of-type(2) {
+                left:100px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   .container {
     > figure {
@@ -351,6 +365,7 @@
 @media screen and (max-width: 600px) {
   .detilcomscss {
     padding-left: 10%;
+
   }
   .webcamtop {
     width:100%;
@@ -368,6 +383,20 @@
 @media screen and (max-width: 486px) {
   .detilcomscss {
     padding-left: 10px;
+    >div:nth-of-type(2) {
+      >div:nth-of-type(2) {
+        >div{
+          >div{
+            width:350px;
+            >div{
+              >div:nth-of-type(2) {
+                left:50px;
+              }
+            }
+          }
+        }
+      }
+    }
   }
   .scroll_wrap {
     > div:nth-of-type(1) {

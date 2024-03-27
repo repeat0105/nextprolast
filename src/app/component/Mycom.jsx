@@ -101,7 +101,7 @@ function Mycom(props) {
   
   
   async function dataCrl(type, data) {
-    console.log(data);
+
     let res;
     switch (type) {
       case "all":
@@ -134,15 +134,11 @@ function Mycom(props) {
   let likeclick;
   const handleClick = (e, item) => {
     e.stopPropagation();
-    console.log(!e.target.previousSibling.checked);
+    
     if (!e.target.previousSibling.checked) {
       likeclick = { idstate: uuidv4() };
       setLike(likeclick);
       
-
-      
- 
-
       likedata = {
         email: session.user.email,
         id: like.idstate,
@@ -152,9 +148,7 @@ function Mycom(props) {
  
       dataCrl("insert", likedata);
     } else {
-  
 
-      console.log(item.check);
       setLike(!like);
       dataCrl("two", item.DATE);
     }
@@ -193,7 +187,7 @@ function Mycom(props) {
         />
       </div>
 
-      <div className="areatopbest">
+      <div className="areatopbest1">
         <Swiper
           slidesPerView={3}
           spaceBetween={40}

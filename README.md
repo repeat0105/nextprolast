@@ -2,7 +2,7 @@
 
 
 ### 새 프로젝트
-![Next.js Logo]('https://www.google.com/url?sa=i&url=https%3A%2F%2Fauth0.com%2Fblog%2Fauth0-stable-support-for-nextjs-app-router%2F&psig=AOvVaw0gQJjtsbJ7VO5VzMm01nUl&ust=1711615172840000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCPCEwM2FlIUDFQAAAAAdAAAAABAE')
+![Next.js Logo](https://assets.vercel.com/image/upload/v1538361091/repositories/next-js/next-js-logo.png)
 :힐링이 필요한 모든 직장인들에게 주말에 시간을 내서 좋은 기억과 사진을 남겨서 평일을 버티게 해줄 수 있는 사이트 입니다.
 
 🔊 

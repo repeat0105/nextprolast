@@ -44,3 +44,26 @@
 
 
 next 번들링 참고 사이트 https://www.hyesungoh.xyz/optimization-with-nextjs
+
+
+next.js 프로젝트를 만들어서 github에 배포하고 vercel에 배포해서 사용중이야 근데 
+npm install @next/bundle-analyzer --save-dev 다운 받고
+
+
+// next.config.js
+
+// 환경변수 ANALYZE가 true일 시에
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+    enabled: process.env.ANALYZE === 'true',
+});
+
+module.exports = withBundleAnalyzer({});
+코드 설치하고
+env 파일안에 ANALYZE=true 쓰고 이렇게 해서 코드를 최적화
+
+&&&&&&
+{
+  "scripts": {
+    "analyze": "ANALYZE=true next build"
+  }
+}이렇게 하면 npm run build 를 대신해서 npm run analyze를 하면 되

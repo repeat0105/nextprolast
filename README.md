@@ -41,3 +41,6 @@
 
 -------------
 ## 📢<a href="https://nextprolast.vercel.app/"> 시연사이트 <a/>
+
+
+next 번들링 참고 사이트 https://www.hyesungoh.xyz/optimization-with-nextjs

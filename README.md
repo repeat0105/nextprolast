@@ -67,3 +67,13 @@ env 파일안에 ANALYZE=true 쓰고 이렇게 해서 코드를 최적화
     "analyze": "ANALYZE=true next build"
   }
 }이렇게 하면 npm run build 를 대신해서 npm run analyze를 하면 되
+
+"scripts": {
+  "build": "ANALYZE=true next build",
+  "analyze": "ANALYZE=true next build"
+}
+
+이렇게 설정하면, npm run build와 npm run analyze 모두 번들 분석기를 활성화하여 빌드를 수행하게 됩니다. 
+하지만, 일반적으로는 번들 분석이 필요할 때만 npm run analyze를 별도로 사용하고, 
+일반 빌드는 가능한 한 빠르게 수행할 수 있도록 npm run build는 분석기를 활성화하지 않는 것이 좋습니다. 
+따라서, 두 스크립트를 목적에 따라 분리하여 사용하는 것이 일반적인 관행입니다.

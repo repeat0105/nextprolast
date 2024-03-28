@@ -2,6 +2,8 @@
 
 
 ### 새 프로젝트
+
+<img src="https://cdn.pixabay.com/photo/2017/08/24/09/35/republic-of-korea-2675988_1280.jpg" alt="HEALINGLINE Logo" width="500" height="auto">
 <img src="https://modulabs.co.kr/wp-content/uploads/2023/10/nextjs14-1536x864.png" alt="Next.js Logo" width="430" height="auto">
 
 :힐링이 필요한 모든 직장인들에게 주말에 시간을 내서 좋은 기억과 사진을 남겨서 평일을 버티게 해줄 수 있는 사이트 입니다.

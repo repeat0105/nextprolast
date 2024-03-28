@@ -1,0 +1,16 @@
+.login {
+  cursor: pointer;
+  background-color: transparent;
+  width: 350px;
+  padding: 15px;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 16px;
+  margin-top: 180px;
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 486px) {
+  .login { width: 250px;}
+}

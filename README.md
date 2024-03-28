@@ -2,7 +2,7 @@
 
 
 ### 새 프로젝트
-<img src="https://modulabs.co.kr/wp-content/uploads/2023/10/nextjs14-1536x864.png" alt="Next.js Logo" width="500" height="auto">
+<img src="https://modulabs.co.kr/wp-content/uploads/2023/10/nextjs14-1536x864.png" alt="Next.js Logo" width="430" height="auto">
 
 :힐링이 필요한 모든 직장인들에게 주말에 시간을 내서 좋은 기억과 사진을 남겨서 평일을 버티게 해줄 수 있는 사이트 입니다.
 
@@ -41,39 +41,3 @@
 
 -------------
 ## 📢<a href="https://nextprolast.vercel.app/"> 시연사이트 <a/>
-
-
-next 번들링 참고 사이트 https://www.hyesungoh.xyz/optimization-with-nextjs
-
-
-next.js 프로젝트를 만들어서 github에 배포하고 vercel에 배포해서 사용중이야 근데 
-npm install @next/bundle-analyzer --save-dev 다운 받고
-
-
-// next.config.js
-
-// 환경변수 ANALYZE가 true일 시에
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-    enabled: process.env.ANALYZE === 'true',
-});
-
-module.exports = withBundleAnalyzer({});
-코드 설치하고
-env 파일안에 ANALYZE=true 쓰고 이렇게 해서 코드를 최적화
-
-&&&&&&
-{
-  "scripts": {
-    "analyze": "ANALYZE=true next build"
-  }
-}이렇게 하면 npm run build 를 대신해서 npm run analyze를 하면 되
-
-"scripts": {
-  "build": "ANALYZE=true next build",
-  "analyze": "ANALYZE=true next build"
-}
-
-이렇게 설정하면, npm run build와 npm run analyze 모두 번들 분석기를 활성화하여 빌드를 수행하게 됩니다. 
-하지만, 일반적으로는 번들 분석이 필요할 때만 npm run analyze를 별도로 사용하고, 
-일반 빌드는 가능한 한 빠르게 수행할 수 있도록 npm run build는 분석기를 활성화하지 않는 것이 좋습니다. 
-따라서, 두 스크립트를 목적에 따라 분리하여 사용하는 것이 일반적인 관행입니다.

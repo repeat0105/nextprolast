@@ -1,7 +1,6 @@
 {
     "detailjsondata": [
         {   
-            
             "GUNAME":"강북구",
             "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4eef0547b59b431ba1e80030b0ffa7f1&thumb=Y",
 
@@ -32,6 +31,91 @@
         },
         {   
             
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1e2ff8eb45c74f5bbd311455c0f1758b&thumb=Y",
+
+            "adress":"서울 강북구 삼각산로 85  도로명/서울시 수유동 360-10 지번",
+            "ponnum":"02-994-8548",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image6.png"
+        },
+        {   
+                
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2bb1a527521f4c30b923ec56350431e4&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"02-399-1000",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image7.png"
+        },
+        {   
+                
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d25f64b89bc04c57954ad64b34933830&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"02-399-1000",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image8.png"
+        },
+        {   
+                
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ced5ee1e4c104b2a854a9f5b4bfac2c6&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"02-399-1000",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image9.png"
+        },
+        {   
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a3fcb017541a4ed0b143c9f43ccfba1a&thumb=Y",
+
+            "adress":"서울 강북구 삼각산로 85  도로명/서울시 수유동 360-10 지번",
+            "ponnum":"02-994-8458",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image10.png"
+        },
+        {   
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=67fb0987bb994780a17055b01a6fde15&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"홈페이지 참고",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image11.png"
+        },
+        {   
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd4aaad5cb8c465891e77a320a6a0c77&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"031-274-8859",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image12.png"
+        },
+        {   
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8963cdd310f440caab56592fb981d01a&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"02-2289-5408",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image13.png"
+        },
+        {   
+            "GUNAME":"강북구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a4f7c7f2ae24482496c939a2275e2b1e&thumb=Y",
+
+            "adress":"서울 강북구 월계로 173 북서울꿈의숲  도로명/서울시 번동 90 지번",
+            "ponnum":"02)399-1000",
+
+            "imgs":"/seoul/gangbukgu/gangbukculturalfoundation/image14.png"
+        },
+        {   
+            
             "GUNAME":"중구",
             "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d4bebfb7059949d7b6c91cf478eac4fa&thumb=Y",
 
@@ -59,6 +143,66 @@
             "usetimetxt2":"일일자유헬스 요금 평일 성인 4000원 중고생 3500원 주말 성인 4800원 청소년4200원 (주말20%할증가격)",
             "txt1":"유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
             "imgs":"/seoul/jung-gu/jung-guculturalfoundation/img0.png"
+        },
+        {   
+            
+            "GUNAME":"중구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7cc3cdd6f4544f61ac80da127b56a91a&thumb=Y",
+
+            "adress":"서울 중구 퇴계로34길 28 서울남산국악당  도로명/서울시 필동2가 84-1 서울남산국악당 지번",
+            "ponnum":"02-6358-5500",
+        
+            "imgs":"/seoul/jung-gu/image1.png"
+        },
+        {   
+            
+            "GUNAME":"중구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=00afaf4e397c441d807932f82e63843c&thumb=Y",
+
+            "adress":"서울 중구 퇴계로34길 28 서울남산국악당  도로명/서울시 필동2가 84-1 서울남산국악당 지번",
+            "ponnum":"02-6358-5500",
+        
+            "imgs":"/seoul/jung-gu/image2.png"
+        },
+        {   
+            
+            "GUNAME":"중구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cd7b6fb07df944c09beae736063f08b6&thumb=Y",
+
+            "adress":"서울 중구 퇴계로34길 28 서울남산국악당  도로명/서울시 필동2가 84-1 서울남산국악당 지번",
+            "ponnum":"02-6358-5500",
+        
+            "imgs":"/seoul/jung-gu/image3.png"
+        },
+        {   
+            
+            "GUNAME":"중구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=79352dbba9d84e2ebdc1e0d3b2fc8698&thumb=Y",
+
+            "adress":"서울 중구 퇴계로 387  도로명/서울 시흥인동 131 지번",
+            "ponnum":"02-2230-6731",
+        
+            "imgs":"/seoul/jung-gu/image4.png"
+        },
+        {   
+            
+            "GUNAME":"중구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=06feb0eb2bc64a68a00e9ac74754007a&thumb=Y",
+
+            "adress":"서울 중구 퇴계로34길 28 서울남산국악당  도로명/서울시 필동2가 84-1 서울남산국악당 지번",
+            "ponnum":"02-6358-5500",
+        
+            "imgs":"/seoul/jung-gu/image5.png"
+        },
+        {   
+                
+            "GUNAME":"중구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=60bd4d77c37b42ad84fbc3d69905be47&thumb=Y",
+            
+            "adress":"서울 중구 을지로 281 동대문디자인플라자D살림터 B2  도로명/서울시 을지로7가 2-1 지번",
+            "ponnum":"02-325-1077",
+        
+            "imgs":"/seoul/jung-gu/image6).png"
         },
         {   
             

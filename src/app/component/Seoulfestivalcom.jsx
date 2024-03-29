@@ -23,12 +23,11 @@ import { useSession } from "next-auth/react";
 
 import Seoulapicom  from './Seoulapicom.jsx'
 
-import useSWR, { SWRConfig } from "swr";
-import { Suspense } from "react";
+
 
 
 export default function Product({ props }) {
-  const { action, mycomdata, testdata, timetam, allheaderaria } = useStore();
+  const { action,  testdata, timetam, allheaderaria } = useStore();
 
   const { data: session, status } = useSession();
 
@@ -79,10 +78,11 @@ export default function Product({ props }) {
 
   
   useEffect(() => {
-    setClickarea(allheaderaria.e)
-    setClickrandertab(allheaderaria.i)
+    if(allheaderaria.e !== "강남구"){
+      setClickarea(allheaderaria.e)
+      setClickrandertab(allheaderaria.i)
+    }
   },[allheaderaria.e])
-
 
 
   const [aria, setAria] = useState([
@@ -91,8 +91,7 @@ export default function Product({ props }) {
 
 
   let dday;
-  let serverdelefind;
-
+ 
   async function dataCrl(type, data) {
 
     let res;
@@ -121,7 +120,7 @@ export default function Product({ props }) {
   const [like, setLike] = useState({ idstate: uuidv4() });
 
   let likedata;
-  let dislikedata;
+
   let likeclick;
   const handleClick = (e, item) => {
     e.stopPropagation();
@@ -204,9 +203,9 @@ export default function Product({ props }) {
                   <div className="loading-animator"></div>
                   <div className="middle-circle"></div>
               </div>
-            <div className="lod">
-              <h1>Loading</h1>
-            </div>
+              <div className="lod">
+                <h1>Loading</h1>
+              </div>
           </div>
             :  
             <p>
@@ -288,11 +287,31 @@ export default function Product({ props }) {
       ) : (
        
         <div className="seoulapi">
-          <p>
-            <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
-            서울 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length === 0 ? "Loading...." : testdata.length})
-          </p>
-          {testdata?.slice(0, 5).map((obj, i) => {
+          {
+            testdata.length === 0 
+            ?  
+        
+            <div className="Parent-loading">
+      
+              <div className="loding-animation-holder">
+                  <div className="loading-animator"></div>
+                  <div className="loading-animator"></div>
+                  <div className="loading-animator"></div>
+                  <div className="loading-animator"></div>
+                  <div className="middle-circle"></div>
+              </div>
+              <div className="lod">
+                <h1>Loading</h1>
+              </div>
+          </div>
+            :  
+            <p>
+              <FontAwesomeIcon icon={faMapMarkedAlt} width="20" />
+              서울 {clickarea} 축제,&nbsp;&nbsp; 전체 축제&nbsp;&nbsp;({testdata.length})
+            </p>
+            
+          }
+          {testdata.slice(0, 5).map((obj, i) => {
             dday = new Date(obj.DATE.split("~")[0]).getTime() - timetam;
             dday = Math.ceil(dday / (1000 * 60 * 60 * 24)); 
             return (

@@ -1,10 +1,10 @@
 {
   "/_not-found": "app/_not-found.js",
-  "/(pages)/login/page": "app/(pages)/login/page.js",
   "/(pages)/detail/page": "app/(pages)/detail/page.js",
+  "/(pages)/login/page": "app/(pages)/login/page.js",
   "/(pages)/my/page": "app/(pages)/my/page.js",
-  "/api/[id]/route": "app/api/[id]/route.js",
   "/(pages)/my/[id]/page": "app/(pages)/my/[id]/page.js",
+  "/api/[id]/route": "app/api/[id]/route.js",
   "/api/id---/route": "app/api/id---/route.js",
   "/api/route": "app/api/route.js",
   "/api/seoul/route": "app/api/seoul/route.js",

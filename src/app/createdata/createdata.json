@@ -654,6 +654,99 @@
             "imgs":"/seoul/gwangjin-gu/image1.png"
         },
         {   
+                
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1823a0341ee84544bf1714055f6de9c2&thumb=Y",
+
+            "adress":"서울 광진구 능동로 76 나루아트센터 도로명/서울시 자양동 227-344 지번",
+            "ponnum":"02-2049-4700",
+        
+            "imgs":"/seoul/gwangjin-gu/image2.png"
+        },
+        {   
+                    
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7c45180e54264507aee64274c9f24442&thumb=Y",
+
+            "adress":"서울 광진구 구의동 3 도로명/서울시 143200 지번",
+            "ponnum":"02-2049-4700",
+        
+            "imgs":"/seoul/gwangjin-gu/image3.png"
+        },
+        {   
+                    
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2640f2f3b3604c4d97bd280c3c0e0a97&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image4.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8a57bf4668ca450c9c2b947683b024b9&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image5.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0eb1cbc6bea74e1bb9d1188dbc9bcba3&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image6.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=50ccab0b2ae44e0980116b3682dbacd1&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image7.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8760e028089341aaa03b23a1b56c3367&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image8.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a54cbcbbbfc140da9a8bf5040f4c2f50&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image9.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fd9fc45c2dfb4a188a9e726505e7980d&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image10.png"
+        },
+        {   
+            "GUNAME":"광진구",
+            "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cb2af3a9757741aa996b416188cbffcf&thumb=Y",
+
+            "adress":"서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
+            "ponnum":"02-6450-9500",
+        
+            "imgs":"/seoul/gwangjin-gu/image11.png"
+        },
+        {   
             
             "GUNAME":"동대문구",
             "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7cd1dbfe655c4e7fb446161c499bd640&thumb=Y",

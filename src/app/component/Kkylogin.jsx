@@ -11,9 +11,11 @@ import Image from "next/image";
 
 import github from "../../../public/kakaolog/evagithub.png";
 
+import { useRouter } from "next/navigation.js";
 
 function kkylogin(props) {
   const { data: session, status } = useSession();
+  const router = useRouter()
 
   async function loginl() {
     const result = await signIn("github", {
@@ -22,7 +24,11 @@ function kkylogin(props) {
       callbackUrl: "/login",
     });
   }
-
+  
+  if(status === "authenticated") {
+    router.push('/login')
+  }
+  
   return (
     <div>
       {status === "authenticated" ? (

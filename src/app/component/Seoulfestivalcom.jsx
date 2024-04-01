@@ -37,7 +37,16 @@ export default function Product({ props }) {
   
   const [res, setRes] = useState([])
 
+  const [loadstats, setLoadstats] = useState(0)
 
+
+  
+  if (loadstats == 0) {
+
+    window.location.reload();
+    setLoadstats(1)
+
+  }
 
 
 

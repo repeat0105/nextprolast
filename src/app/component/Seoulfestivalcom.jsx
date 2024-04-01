@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import Link from "next/link";
 
-import { useRouter } from "next/navigation.js";
+
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
@@ -38,6 +38,10 @@ export default function Product({ props }) {
   const [res, setRes] = useState([])
 
 
+  useEffect(() => {
+ 
+    window.location.reload();
+  }, []);
 
 
   useEffect(() => {

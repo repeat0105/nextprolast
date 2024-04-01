@@ -27,7 +27,7 @@ function kkylogin(props) {
 
   if (status === "authenticated") {
     router.push("/login");
-    router.reload();
+    // router.reload();
   }
 
   return (

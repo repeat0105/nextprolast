@@ -38,10 +38,7 @@ export default function Product({ props }) {
   const [res, setRes] = useState([])
 
 
-  useEffect(() => {
- 
-    window.location.reload();
-  }, []);
+
 
 
   useEffect(() => {

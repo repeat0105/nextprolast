@@ -1,4 +1,4 @@
-// File: D:\kang\18주차\1일\nextpro\src\app\api\weader\route.js
+// File: D:\kang\19주차\1일\nextpro\src\app\api\weader\route.js
 import * as entry from '../../../../../src/app/api/weader/route.js'
 import type { NextRequest } from 'next/server.js'
 

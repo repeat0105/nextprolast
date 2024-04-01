@@ -1,4 +1,4 @@
-// File: D:\kang\18주차\5일\nextpro\src\app\api\two\[DATE]\route.js
+// File: D:\kang\18주차\1일\nextpro\src\app\api\two\[DATE]\route.js
 import * as entry from '../../../../../../src/app/api/two/[DATE]/route.js'
 import type { NextRequest } from 'next/server.js'
 

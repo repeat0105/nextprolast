@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 import Link from "next/link";
 
-
+import { useRouter } from "next/navigation.js";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarkedAlt } from "@fortawesome/free-solid-svg-icons";
@@ -30,13 +30,18 @@ export default function Product({ props }) {
   const { action,  testdata, timetam, allheaderaria } = useStore();
 
   const { data: session, status } = useSession();
-
+  const router = useRouter();
 
   const [likestate, setLikestate] = useState(false);
 
   
   const [res, setRes] = useState([])
 
+
+  if (status === "authenticated") {
+
+    router.reload();
+  }
 
   useEffect(() => {
     dataCrl('user',session.user.email)
@@ -46,8 +51,6 @@ export default function Product({ props }) {
   useEffect(() => {
     action("get");
 
-
- 
     return () => {
       setLikestate(!likestate);
     };

@@ -30,7 +30,7 @@ export default function Product({ props }) {
   const { action,  testdata, timetam, allheaderaria } = useStore();
 
   const { data: session, status } = useSession();
-  const router = useRouter();
+ 
 
   const [likestate, setLikestate] = useState(false);
 
@@ -38,10 +38,7 @@ export default function Product({ props }) {
   const [res, setRes] = useState([])
 
 
-  if (status === "authenticated") {
 
-    router.reload();
-  }
 
   useEffect(() => {
     dataCrl('user',session.user.email)

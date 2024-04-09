@@ -252,15 +252,6 @@
       "adress": "서울 중구 을지로 281 동대문디자인플라자D살림터 B2  도로명/서울시 을지로7가 2-1 지번",
       "ponnum": "02-325-1077",
 
-      "imgs": "/seoul/jung-gu/image6).png"
-    },
-    {
-      "GUNAME": "중구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=60bd4d77c37b42ad84fbc3d69905be47&thumb=Y",
-
-      "adress": "서울 중구 을지로 281 동대문디자인플라자D살림터 B2  도로명/서울시 을지로7가 2-1 지번",
-      "ponnum": "02-325-1077",
-
       "imgs": "/seoul/jung-gu/image6.png"
     },
     {
@@ -411,7 +402,7 @@
       "GUNAME": "중구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d49c1795320b48d7be39c108b7ddfc6f&thumb=Y",
 
-      "adress": "서울 중구 남대문로 52-20 1층 도로명, 2층 도로명/서울 충무로1가 21-17 지번",
+      "adress": "서울 중구 남대문로 52-20 1층 도로명/서울 충무로1가 21-17 지번",
       "ponnum": "02-3789-2226",
 
       "imgs": "/seoul/jung-gu/image23.png"
@@ -420,7 +411,7 @@
       "GUNAME": "중구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c2e6a92b354a4295b36b64d00b044c08&thumb=Y",
 
-      "adress": "서울특별시 중구 을지로 281 도로명, 2층 도로명/서울 을지로7가 143 지번",
+      "adress": "서울특별시 중구 을지로 281 도로명/서울 을지로7가 143 지번",
       "ponnum": "070-8852-5481",
 
       "imgs": "/seoul/jung-gu/image24.png"
@@ -429,10 +420,100 @@
       "GUNAME": "중구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3e15675811094f8fb67592ba437c25fc&thumb=Y",
 
-      "adress": "서울 중구 세종대로 110 시민청(B1, B2) 도로명, 2층 도로명/서울 태평로1가 31 지번",
+      "adress": "서울 중구 세종대로 110 시민청(B1, B2) 도로명/서울 태평로1가 31 지번",
       "ponnum": "02-739-5230",
 
       "imgs": "/seoul/jung-gu/image25.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=35dc68b5a48249eba85d2d23fb615b4e&thumb=Y",
+
+      "adress": "서울 중구 장충단로 59 도로명/서울 장충동2가 산14-67 지번",
+      "ponnum": "02-2280-5806",
+
+      "imgs": "/seoul/jung-gu/image26.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3fa5654ceffb428986ee6abcf83380b3&thumb=Y",
+
+      "adress": "서울 중구 퇴계로34길 28 서울남산국악당 도로명/서울 필동2가 84-1 서울남산국악당 지번",
+      "ponnum": "02-6358-5500",
+
+      "imgs": "/seoul/jung-gu/image27.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0ee6d7b782d94771b26a62d5c112f7e3&thumb=Y",
+
+      "adress": "서울 중구 을지로 281 동대문디자인플라자D살림터 B2 도로명/서울 을지로7가 2-1 지번",
+      "ponnum": "02-6358-5500",
+
+      "imgs": "/seoul/jung-gu/image28.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0a8a1a3bddf1463bb933418d51207cae&thumb=Y",
+
+      "adress": "서울 중구 을지로 281 동대문디자인플라자D살림터 B2 도로명/서울 을지로7가 2-1 지번",
+      "ponnum": "02-2153-0069",
+
+      "imgs": "/seoul/jung-gu/image29.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a4fa165f52184f4582c65df306c1df66&thumb=Y",
+
+      "adress": "서울 중구 장충단로 59 도로명/서울 장충동2가 산14-67 지번",
+      "ponnum": "02-2280-5807",
+
+      "imgs": "/seoul/jung-gu/image30.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b5c5bebf06c64871a549e69a013a3b1f&thumb=Y",
+
+      "adress": "서울 중구 퇴계로34길 28 서울남산국악당 도로명/서울 필동2가 84-1 서울남산국악당 지번",
+      "ponnum": "02-6358-5500",
+
+      "imgs": "/seoul/jung-gu/image31.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b5616eacc2d44acc87d196f347e4a6d9&thumb=Y",
+
+      "adress": "서울 중구 세종대로 110 시민청(B1, B2) 도로명/서울 태평로1가 31 시민청(B1, B2) 지번",
+      "ponnum": "02-739-5814",
+
+      "imgs": "/seoul/jung-gu/image32.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cf5f5c4451b14cbf867fe88ab5ecf712&thumb=Y",
+
+      "adress": "서울 중구 퇴계로41길 30 도로명/서울 인현동2가 181-60 지번",
+      "ponnum": "02-2230-6723",
+
+      "imgs": "/seoul/jung-gu/image33.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=264050c3078a497f98978d923b475806&thumb=Y",
+
+      "adress": "서울 중구 세종대로 110 서울특별시청 도로명/서울 태평로1가 31 지번",
+      "ponnum": "02-2133-0248",
+
+      "imgs": "/seoul/jung-gu/image34.png"
+    },
+    {
+      "GUNAME": "중구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=37204240653045058698e08bf9a5188b&thumb=Y",
+
+      "adress": "서울 중구 덕수궁길 61 도로명/서울 서소문동 37 지번",
+      "ponnum": "02-2124-8941",
+
+      "imgs": "/seoul/jung-gu/image35.png"
     },
     {
       "GUNAME": "용산구",

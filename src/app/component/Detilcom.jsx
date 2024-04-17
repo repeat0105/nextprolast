@@ -179,7 +179,7 @@ function Detilcom(props) {
           <button onClick={backFunction} id="backBtn" title="뒤로 이동">
             <FontAwesomeIcon icon={faBackward} />
           </button>
-          <button id="pickcur" title="남기고 싶은 사진">
+          <button id="pickcur" title="지금은 아래에서 찍을 수 있어요">
             <Image src="/detail/ellipse.png" width={50} height={50} alt=''/>
           </button>
 

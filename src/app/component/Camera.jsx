@@ -120,6 +120,7 @@ function Camera(props) {
 
   return (
     <div className="webcamtop">
+      <h2>핸드폰 사진 등록</h2>
       <Webcam
         ref={webcam}
         audio={false}
@@ -130,15 +131,16 @@ function Camera(props) {
         videoConstraints={{ facingMode: { exact: "environment" } }} //후면
       />
 
-      <img src={webcamImg} width="300" alt="cell phone rear camera" />
+      <img src={webcamImg} width="300" alt="핸드폰 후면 카메라" />
       <button onClick={capture}> Capture photo </button>
 
 
-      <article >
+      <article className="picuruploaddoit">
         <h2>사진등록</h2>
         <form onSubmit={upload}>
           <p>
-            <input type="file" name="photo" />
+            <label for="photo">컴퓨터 사진: &nbsp;</label>
+            <input type="file" name="photo" id="photo"/>
             <button>등록</button>
           </p>
         </form>

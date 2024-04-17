@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, {useEffect } from "react";
 
 import { signIn, signOut, useSession } from "next-auth/react";
 
@@ -25,10 +25,13 @@ function kkylogin(props) {
     });
   }
 
-  if (status === "authenticated") {
-    router.push("/login");
-    
-  }
+  useEffect(() => {
+    // loginl();
+    if (status === "authenticated") {
+      router.push("/login");
+    }
+  }, [status])
+
 
   return (
     <div>

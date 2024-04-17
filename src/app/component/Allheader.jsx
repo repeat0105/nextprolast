@@ -57,7 +57,8 @@ function Allheader(props) {
         const sessionData = await session;
         const url = location.pathname;
 
-        if ("/login" === url || "/my" === url || "/detail" === url) {
+        if ("/login" === url || "/my" === url || "/detail" === url || "/" === url) {
+          console.log(sta,'===sta')
           setSta(false);
 
           setHeaderuserdata({
@@ -88,6 +89,8 @@ function Allheader(props) {
   useEffect(() => {
     action('allaria', accordionstate)
   }, [accordionstate])
+
+  
   if (sta) return <></>;
 
   return (

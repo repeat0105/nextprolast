@@ -19,7 +19,7 @@ import { Pagination } from "swiper/modules";
 import Link from "next/link";
 import Image from "next/image";
 
-import djaldata from "../createdata/createdata.json";
+
 
 
 import React, { useEffect, useState, useCallback } from "react";

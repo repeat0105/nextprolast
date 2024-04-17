@@ -544,34 +544,7 @@
 
       "imgs": "/seoul/jung-gu/image38.png"
     },
-    {
-      "GUNAME": "용산구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a29bf6c56e4e49ddba79144cad35d9c9&thumb=Y",
 
-      "adress": "서울 용산구 이태원로 274  도로명/서울시 용산구 한남동 728-10 지번",
-      "ponnum": "02-2199-6180",
-
-      "parkingtxt1": "주차요금 고정일일주차 5분당 150원전일 6만원, 주간 4만원, 야간 3만원",
-      "parkingtxt2": "운영시간평일, 토요일 : 06:00- 22:00일요일 : 09:00 - 18:00",
-      "usetimetxt1": "일일자유헬스 운영시간 평일 1부: 06:00-12:00 2부: 13:00-18:00 3부: 19:00-22:00 토요일 1부: 06:00-12:00 2부: 13:00-18:00 일요일 1부: 09:00-12:00 2부: 13:00-18:00",
-      "usetimetxt2": "일일자유헬스 요금 평일 성인 4000원 중고생 3500원 주말 성인 4800원 청소년4200원 (주말20%할증가격)",
-      "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
-      "imgs": "/seoul/yongsan-gu/yongsan-guoffice/img0.png"
-    },
-    {
-      "GUNAME": "용산구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=824ad6cb064e426f8dc81dd0e259b91e&thumb=Y",
-
-      "adress": "서울 용산구 이태원로 274  도로명/서울시 용산구 한남동 728-10 지번",
-      "ponnum": "02-2199-6180",
-
-      "parkingtxt1": "주차요금 고정일일주차 5분당 150원전일 6만원, 주간 4만원, 야간 3만원",
-      "parkingtxt2": "운영시간평일, 토요일 : 06:00- 22:00일요일 : 09:00 - 18:00",
-      "usetimetxt1": "일일자유헬스 운영시간 평일 1부: 06:00-12:00 2부: 13:00-18:00 3부: 19:00-22:00 토요일 1부: 06:00-12:00 2부: 13:00-18:00 일요일 1부: 09:00-12:00 2부: 13:00-18:00",
-      "usetimetxt2": "일일자유헬스 요금 평일 성인 4000원 중고생 3500원 주말 성인 4800원 청소년4200원 (주말20%할증가격)",
-      "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
-      "imgs": "/seoul/yongsan-gu/yongsan-guoffice/img5.png"
-    },
     {
       "GUNAME": "용산구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=266b7d15a02043f8a4c4332fb1053658&thumb=Y",
@@ -581,15 +554,7 @@
 
       "imgs": "/seoul/yongsan-gu/image1.png"
     },
-    {
-      "GUNAME": "용산구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c081c952dedd41f9b8ae48e409ac0ad9&thumb=Y",
-
-      "adress": "서울 용산구 양녕로 445  도로명/서울시 이촌동 302-146 지번",
-      "ponnum": "02-749-4500",
-
-      "imgs": "/seoul/yongsan-gu/image2.png"
-    },
+   
     {
       "GUNAME": "용산구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d647c9484f91485797b17ce52fc1cf20&thumb=Y",
@@ -617,15 +582,7 @@
 
       "imgs": "/seoul/yongsan-gu/image5.png"
     },
-    {
-      "GUNAME": "용산구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e8a8b92d613b4f368e1d27542fa46549&thumb=Y",
 
-      "adress": "서울 용산구 양녕로 445  도로명/서울시 이촌동 302-146 지번",
-      "ponnum": "02-2105-2434",
-
-      "imgs": "/seoul/yongsan-gu/image6.png"
-    },
     {
       "GUNAME": "용산구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7489f6f0893f4b4dab8e0337719c1ba2&thumb=Y",
@@ -685,20 +642,7 @@
       "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
       "imgs": "/seoul/seongdong-gu/seongdongculturalfoundation/img0.png"
     },
-    {
-      "GUNAME": "성동구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=57d7344b12584efdbced714e09e9a6ba&thumb=Y",
-
-      "adress": "서울 성동구 뚝섬로1길 43 도로명/서울시 성동구 성수동1가 656-323 지번",
-      "ponnum": "010-8859-2639",
-
-      "parkingtxt1": "주차요금 고정일일주차 5분당 150원전일 6만원, 주간 4만원, 야간 3만원",
-      "parkingtxt2": "운영시간평일, 토요일 : 06:00- 22:00일요일 : 09:00 - 18:00",
-      "usetimetxt1": "일일자유헬스 운영시간 평일 1부: 06:00-12:00 2부: 13:00-18:00 3부: 19:00-22:00 토요일 1부: 06:00-12:00 2부: 13:00-18:00 일요일 1부: 09:00-12:00 2부: 13:00-18:00",
-      "usetimetxt2": "일일자유헬스 요금 평일 성인 4000원 중고생 3500원 주말 성인 4800원 청소년4200원 (주말20%할증가격)",
-      "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
-      "imgs": "/seoul/seongdong-gu/seongdongculturalfoundation/img5.png"
-    },
+    
     {
       "GUNAME": "성동구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5a3986c74c0a4c35bb462f32935f6958&thumb=Y",
@@ -743,51 +687,6 @@
       "ponnum": "02-2211-2556",
 
       "imgs": "/seoul/seongdong-gu/image5.png"
-    },
-    {
-      "GUNAME": "성동구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cae1c5cb683942659d4b522e35bc518a&thumb=Y",
-
-      "adress": "서울 성동구 왕십리로 281 소월아트홀 도로명/서울시 04744 지번",
-      "ponnum": "02-2204-6424",
-
-      "imgs": "/seoul/seongdong-gu/image6.png"
-    },
-    {
-      "GUNAME": "성동구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=89196002322d4cf78ab5e064067e85b8&thumb=Y",
-
-      "adress": "서울 성동구 뚝섬로1길 43 도로명/서울시 성수동1가 656-323 지번",
-      "ponnum": "02-2204-7570",
-
-      "imgs": "/seoul/seongdong-gu/image7.png"
-    },
-    {
-      "GUNAME": "성동구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2a572471b6ae4dfbad317b320d9a7643&thumb=Y",
-
-      "adress": "서울 성동구 뚝섬로1길 43 도로명/서울시 성수동1가 656-323 지번",
-      "ponnum": "02-2204-7579",
-
-      "imgs": "/seoul/seongdong-gu/image8.png"
-    },
-    {
-      "GUNAME": "성동구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ce0d786764cc47f18843f1a9acf7eac0&thumb=Y",
-
-      "adress": "서울 성동구 서울숲길 36 3F 스튜디오301 (studio301) 도로명/서울시 성수동1가 676-9 3F 스튜디오301 (studio301) 지번",
-      "ponnum": "0507-1407-7473",
-
-      "imgs": "/seoul/seongdong-gu/image9.png"
-    },
-    {
-      "GUNAME": "성동구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=71d8b6200d6b41b994feb0043db525fd&thumb=Y",
-
-      "adress": "서울 성동구 서울숲길 36 3F 스튜디오301 (studio301) 도로명/서울시 성수동1가 676-9 3F 스튜디오301 (studio301) 지번",
-      "ponnum": "0507-1407-7473",
-
-      "imgs": "/seoul/seongdong-gu/image10.png"
     },
     {
       "GUNAME": "성동구",

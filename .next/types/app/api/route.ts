@@ -1,4 +1,4 @@
-// File: D:\kang\21주차\3일\nextpro\src\app\api\route.js
+// File: D:\kang\21주차\4일\kakaomap\src\app\api\route.js
 import * as entry from '../../../../src/app/api/route.js'
 import type { NextRequest } from 'next/server.js'
 

@@ -1,14 +1,14 @@
-"use client"
+
 import React from "react";
 import "../app/sass/page.scss";
 
 import Loginpage from "./(pages)/login/page";
 import UseImagecom from '@/app/component/UseImagecom.jsx'
-import { useSession } from "next-auth/react";
+
 
 
 function apppege(props) {
-  const { data: session, status } = useSession();
+
   return (
     <div className="app">
       <div >

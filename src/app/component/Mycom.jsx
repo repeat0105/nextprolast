@@ -160,6 +160,37 @@ function Mycom(props) {
     "강북구, 중구, 용산구, 성동구, 광진구, 동대문구, 중랑구, 성북구, 종로구, 도봉구, 노원구, 은평구, 서대문구, 마포구, 양천구, 강서구, 구로구, 금천구, 영등포구, 동작구, 관악구, 서초구, 강남구, 송파구, 강동구",
   ];
   let dday;
+
+
+  const [mapkakao, setMapkakao] = useState([]);
+
+  const resultdata = [
+    {
+      LAT: "127.01326775323761",
+      LOT: "37.64083272514534",
+      ORG_NAME: "강북문화재단",
+      MAIN_IMG: "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4eef0547b59b431ba1e80030b0ffa7f1&thumb=Y",
+      email: "kkyzxc40@gmail.com"
+      },
+      {
+      LAT: "127.044324732036",
+      LOT: "37.6202544613023",
+      ORG_NAME: "세종문화회관",
+      MAIN_IMG: "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=335f0198118049bc9b0f8deb877b8521&thumb=Y",
+      email: "kkyzxc40@gmail.com"
+      }
+    ]
+
+  useEffect(() => {
+    setMapkakao(
+      mongodbdata.filter((obj, i) => {
+        return clickarea.trim() === obj.GUNAME;
+      })
+    );
+  }, [clickarea]);
+  // console.log(mapkakao);
+
+
   return (
     <div className="mycomscss">
       <div>
@@ -176,15 +207,14 @@ function Mycom(props) {
           isOpencalender && (<CalenderList setStastartday={setStastartday} stastartday={stastartday} />)
         }
       </div>
+
       <div>
-        <KakaoMap
-          LOT={37.5726241}
-          LAT={126.9760053}
-          ORG_NAME={"세종문화회관"}
-          MAIN_IMG={
-            "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=781b7dc965af4988af0b26d6b74e9414&thumb=Y"
-          }
-        />
+        {clickarea ? (
+            <KakaoMap objj={mapkakao}/>
+        ) : (
+            <KakaoMap objj={resultdata}/>
+        
+        )}
       </div>
 
       <div className="areatopbest1">

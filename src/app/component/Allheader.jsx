@@ -58,7 +58,7 @@ function Allheader(props) {
         const url = location.pathname;
 
         if ("/login" === url || "/my" === url || "/detail" === url || "/" === url) {
-          console.log(sta,'===sta')
+          // console.log(sta,'===sta')
           setSta(false);
 
           setHeaderuserdata({

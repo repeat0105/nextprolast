@@ -84,6 +84,17 @@ function Detilcom(props) {
     e.target.parentNode.parentNode.parentNode.style.display = "none";
   };
 
+  const [detailmap, setDetailmap] = useState([])
+  useEffect(() => {
+
+    setDetailmap({
+      LOT:datas.LOT,
+      LAT:datas.LAT,
+      ORG_NAME:datas.ORG_NAME,
+      MAIN_IMG:datas.MAIN_IMG
+    })
+  }, [])
+
   return (
     <>
       {finddata.length > 0 ? (
@@ -168,12 +179,13 @@ function Detilcom(props) {
           </div>
           <section className="kakaomap">
             <h2>길 찾기</h2>
-            <KakaoMap
+            {/* <KakaoMap
               LOT={datas.LOT}
               LAT={datas.LAT}
               ORG_NAME={datas.ORG_NAME}
               MAIN_IMG={datas.MAIN_IMG}
-            />
+            /> */}
+            <KakaoMap objj={detailmap}/>
           </section>
 
           <button onClick={backFunction} id="backBtn" title="뒤로 이동">

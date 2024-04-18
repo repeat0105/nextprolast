@@ -2,9 +2,13 @@
 
 import { useEffect } from "react";
 import "../sass/kakao-map.scss";
+import { usePathname } from "next/navigation";
+
 
 const KakaoMap = ({ objj }) => {
-  const url = location.pathname;
+
+  const  url = usePathname();
+
   if("/detail" === url) {
     objj=[
       {

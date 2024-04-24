@@ -863,15 +863,7 @@
 
       "imgs": "/seoul/gwangjin-gu/image1.png"
     },
-    {
-      "GUNAME": "광진구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1823a0341ee84544bf1714055f6de9c2&thumb=Y",
-
-      "adress": "서울 광진구 능동로 76 나루아트센터 도로명/서울시 자양동 227-344 지번",
-      "ponnum": "02-2049-4700",
-
-      "imgs": "/seoul/gwangjin-gu/image2.png"
-    },
+  
     {
       "GUNAME": "광진구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7c45180e54264507aee64274c9f24442&thumb=Y",
@@ -899,51 +891,7 @@
 
       "imgs": "/seoul/gwangjin-gu/image5.png"
     },
-    {
-      "GUNAME": "광진구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0eb1cbc6bea74e1bb9d1188dbc9bcba3&thumb=Y",
 
-      "adress": "서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
-      "ponnum": "02-6450-9500",
-
-      "imgs": "/seoul/gwangjin-gu/image6.png"
-    },
-    {
-      "GUNAME": "광진구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=50ccab0b2ae44e0980116b3682dbacd1&thumb=Y",
-
-      "adress": "서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
-      "ponnum": "02-6450-9500",
-
-      "imgs": "/seoul/gwangjin-gu/image7.png"
-    },
-    {
-      "GUNAME": "광진구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8760e028089341aaa03b23a1b56c3367&thumb=Y",
-
-      "adress": "서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
-      "ponnum": "02-6450-9500",
-
-      "imgs": "/seoul/gwangjin-gu/image8.png"
-    },
-    {
-      "GUNAME": "광진구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a54cbcbbbfc140da9a8bf5040f4c2f50&thumb=Y",
-
-      "adress": "서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
-      "ponnum": "02-6450-9500",
-
-      "imgs": "/seoul/gwangjin-gu/image9.png"
-    },
-    {
-      "GUNAME": "광진구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fd9fc45c2dfb4a188a9e726505e7980d&thumb=Y",
-
-      "adress": "서울 광진구 능동로 238 서울시민안전체험관 도로명/서울시 능동 18 지번",
-      "ponnum": "02-6450-9500",
-
-      "imgs": "/seoul/gwangjin-gu/image10.png"
-    },
     {
       "GUNAME": "광진구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=cb2af3a9757741aa996b416188cbffcf&thumb=Y",
@@ -1017,6 +965,15 @@
       "imgs": "/seoul/gwangjin-gu/image18.png"
     },
     {
+      "GUNAME": "광진구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=9b5b0e2159074ba680d63273a0eb837b&thumb=Y",
+
+      "adress": "서울 광진구 강변북로 139 도로명/서울시 자양동 704-1 지번",
+      "ponnum": "120",
+
+      "imgs": "/seoul/gwangjin-gu/image19.png"
+    },
+    {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7cd1dbfe655c4e7fb446161c499bd640&thumb=Y",
 
@@ -1030,20 +987,7 @@
       "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
       "imgs": "/seoul/dongdaemun-gu/dongdaemunculturalfoundation/img0.png"
     },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6b9ed2b2cf2448149f5420c19a064df3&thumb=Y",
 
-      "adress": "서울 동대문구 장한로26다길 10 도로명/서울시 동대문구 장안동 342-23 지번",
-      "ponnum": "02-2249-1959",
-
-      "parkingtxt1": "주차요금 고정일일주차 5분당 150원전일 6만원, 주간 4만원, 야간 3만원",
-      "parkingtxt2": "운영시간평일, 토요일 : 06:00- 22:00일요일 : 09:00 - 18:00",
-      "usetimetxt1": "일일자유헬스 운영시간 평일 1부: 06:00-12:00 2부: 13:00-18:00 3부: 19:00-22:00 토요일 1부: 06:00-12:00 2부: 13:00-18:00 일요일 1부: 09:00-12:00 2부: 13:00-18:00",
-      "usetimetxt2": "일일자유헬스 요금 평일 성인 4000원 중고생 3500원 주말 성인 4800원 청소년4200원 (주말20%할증가격)",
-      "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
-      "imgs": "/seoul/dongdaemun-gu/dongdaemunculturalfoundation/img5.png"
-    },
     {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=90867833aa014a6c8a0bb7f906137e5f&thumb=Y",
@@ -1053,15 +997,7 @@
 
       "imgs": "/seoul/dongdaemun-gu/image1.png"
     },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=218ca19847a44d97b877d1c1fb8e8267&thumb=Y",
-
-      "adress": "서울 동대문구 무학로44길 38 도로명/서울시 제기동 274-1 지번",
-      "ponnum": "02-3295-5568",
-
-      "imgs": "/seoul/dongdaemun-gu/image2.png"
-    },
+  
     {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=775a0f2bdaf94426bda2672f572528a7&thumb=Y",
@@ -1089,15 +1025,7 @@
 
       "imgs": "/seoul/dongdaemun-gu/image5.png"
     },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5509d26cd4fa4d8ea149e807fdaaee68&thumb=Y",
-
-      "adress": "서울 동대문구 답십리로 210-9 도로명/서울시 답십리동 산2-121 지번",
-      "ponnum": "02-2247-4007",
-
-      "imgs": "/seoul/dongdaemun-gu/image6.png"
-    },
+ 
     {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=81436d6c13c744ac8f4647d1c6cb3268&thumb=Y",
@@ -1116,15 +1044,7 @@
 
       "imgs": "/seoul/dongdaemun-gu/image8.png"
     },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3b2a073531184db8a37f6e5862f89e12&thumb=Y",
 
-      "adress": "서울 동대문구 답십리로 210-9 도로명/서울시 답십리동 산2-121 지번",
-      "ponnum": "02-2247-4016",
-
-      "imgs": "/seoul/dongdaemun-gu/image9.png"
-    },
     {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=830a75f9e89644798d45ef6d7520778d&thumb=Y",
@@ -1170,33 +1090,8 @@
 
       "imgs": "/seoul/dongdaemun-gu/image14.png"
     },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=01f32ef10a914e5394edd87e90e57c04&thumb=Y",
 
-      "adress": "서울 동대문구 약령시로9길 45 도로명/서울시 제기동 133-17 지번",
-      "ponnum": "02-928-3141",
 
-      "imgs": "/seoul/dongdaemun-gu/image15.png"
-    },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f0531bd921104cbfa0b713f291f88b19&thumb=Y",
-
-      "adress": "서울 동대문구 답십리로 210-9 도로명/서울시 답십리동 산2-121 지번",
-      "ponnum": "02-2247-4007",
-
-      "imgs": "/seoul/dongdaemun-gu/image16.png"
-    },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=d86a4b694e284328884cddbf34ff51bb&thumb=Y",
-
-      "adress": "서울 동대문구 천장산로9길 68 도로명/서울시 이문동 264-181 지번",
-      "ponnum": "02-968-7530",
-
-      "imgs": "/seoul/dongdaemun-gu/image17.png"
-    },
     {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=52c24f190c9f4d12a4c4de7bb5812532&thumb=Y",
@@ -1206,15 +1101,7 @@
 
       "imgs": "/seoul/dongdaemun-gu/image18.png"
     },
-    {
-      "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e72782ffd3624d5c9a4c59fec663764d&thumb=Y",
-
-      "adress": "서울 동대문구 천호대로4길 21 서울풍물시장 도로명/서울시 신설동 109-5 지번",
-      "ponnum": "02-2232-3368",
-
-      "imgs": "/seoul/dongdaemun-gu/image19.png"
-    },
+ 
     {
       "GUNAME": "동대문구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c3848573720a4ada9c9cd3e84dea2de9&thumb=Y",
@@ -1235,22 +1122,32 @@
     },
     {
       "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b4e3ec306e79427da8b1d9f496a8191a&thumb=Y",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=170b0b50c4484814a3982c5710dac0ed&thumb=Y",
 
-      "adress": "서울 동대문구 장한로26다길 10 도로명/서울시 장안동 342-23 지번",
-      "ponnum": "02-2249-1959",
+      "adress": "서울 동대문구 답십리로 210-9 도로명/서울시 답십리동 산2-121 지번",
+      "ponnum": "02-2247-4016",
 
       "imgs": "/seoul/dongdaemun-gu/image22.png"
     },
     {
       "GUNAME": "동대문구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=5f5d683251df492e80bd48c1184b4d2b&thumb=Y",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3a0dadb7ceba43d3a933c0f8bece29c5&thumb=Y",
 
-      "adress": "서울 동대문구 장안벚꽃로 323 휘경행복도서관 도로명/서울시 휘경동 376 지번",
-      "ponnum": "02-2249-9701",
+      "adress": "서울 동대문구 답십리로 210-9 도로명/서울시 답십리동 산2-121 지번",
+      "ponnum": "02-2247-4010",
 
       "imgs": "/seoul/dongdaemun-gu/image23.png"
     },
+    {
+      "GUNAME": "동대문구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8aea00c6330c4e2981f8a25056994763&thumb=Y",
+
+      "adress": "서울 동대문구 답십리로 210-9 도로명/서울시 답십리동 산2-121 지번",
+      "ponnum": "02-2247-4013",
+
+      "imgs": "/seoul/dongdaemun-gu/image24.png"
+    },
+
     {
       "GUNAME": "중랑구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=00589156c38641eda5787e59d392759d&thumb=Y",
@@ -1265,20 +1162,7 @@
       "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
       "imgs": "/seoul/jungnang-gu/jungnangculturalfoundation/img0.png"
     },
-    {
-      "GUNAME": "중랑구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e292b4b2e6494b589a335277a74bf0f6&thumb=Y",
-
-      "adress": "서울 중랑구 신내로21길 116 도로명/서울시 중랑구 신내동 777 지번",
-      "ponnum": "02-3407-6546~6547",
-
-      "parkingtxt1": "주차요금 고정일일주차 5분당 150원전일 6만원, 주간 4만원, 야간 3만원",
-      "parkingtxt2": "운영시간평일, 토요일 : 06:00- 22:00일요일 : 09:00 - 18:00",
-      "usetimetxt1": "일일자유헬스 운영시간 평일 1부: 06:00-12:00 2부: 13:00-18:00 3부: 19:00-22:00 토요일 1부: 06:00-12:00 2부: 13:00-18:00 일요일 1부: 09:00-12:00 2부: 13:00-18:00",
-      "usetimetxt2": "일일자유헬스 요금 평일 성인 4000원 중고생 3500원 주말 성인 4800원 청소년4200원 (주말20%할증가격)",
-      "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
-      "imgs": "/seoul/jungnang-gu/jungnangculturalfoundation/img0.png"
-    },
+ 
     {
       "GUNAME": "중랑구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c1734669315e43298978fa1aa838b421&thumb=Y",
@@ -1315,33 +1199,8 @@
 
       "imgs": "/seoul/jungnang-gu/image4.png"
     },
-    {
-      "GUNAME": "중랑구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=49af178acf634da69d342508800853bd&thumb=Y",
+ 
 
-      "adress": "서울 중랑구 망우로 353 이노시티 C동 B2F 중랑아트센터 도로명/서울시 상봉동 500 지번",
-      "ponnum": "0507-1338-9226",
-
-      "imgs": "/seoul/jungnang-gu/image5.png"
-    },
-    {
-      "GUNAME": "중랑구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f25c8866153c43e5a94f538be1f91b19&thumb=Y",
-
-      "adress": "서울 중랑구 면목로 238 중랑구민회관 3층 도로명/서울시 면목동 378-4 지번",
-      "ponnum": "02-492-0066~7",
-
-      "imgs": "/seoul/jungnang-gu/image6.png"
-    },
-    {
-      "GUNAME": "중랑구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=93c6f82e142f4e6ab73d76ab1cff2fc9&thumb=Y",
-
-      "adress": "서울 중랑구 망우로 353 이노시티 C동 B2F 중랑아트센터 도로명,/서울시 상봉동 500 지번",
-      "ponnum": "02-3407-6541",
-
-      "imgs": "/seoul/jungnang-gu/image7.png"
-    },
     {
       "GUNAME": "중랑구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b94f3e4645a54578ae6928c37ac28171&thumb=Y",
@@ -1359,6 +1218,15 @@
       "ponnum": "02-3407-6541",
 
       "imgs": "/seoul/jungnang-gu/image9.png"
+    },
+    {
+      "GUNAME": "중랑구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c4e293173c654445a1590c497a2d047e&thumb=Y",
+
+      "adress": "서울 중랑구 신내로21길 116 도로명,/서울시 신내동 777 지번",
+      "ponnum": "02-3407-6546~6547",
+
+      "imgs": "/seoul/jungnang-gu/image10.png"
     },
     {
       "GUNAME": "성북구",
@@ -1387,24 +1255,8 @@
 
       "imgs": "/seoul/seongbuk-gu/image3.png"
     },
-    {
-      "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=96924761207a4459bfe655b8e6b95590&thumb=Y",
 
-      "adress": "서울 성북구 보문로34다길 31 지하1층 도로명,/서울시 동선동3가 212-1 지번",
-      "ponnum": "010-9869-1182",
-
-      "imgs": "/seoul/seongbuk-gu/image4.png"
-    },
-    {
-      "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c38759575dad4c9e836c24b8202f4e5e&thumb=Y",
-
-      "adress": "서울 성북구 화랑로32길 100-1 도로명,/서울시 석관동 261-125 지번",
-      "ponnum": "02-961-3031",
-
-      "imgs": "/seoul/seongbuk-gu/image5.png"
-    },
+  
     {
       "GUNAME": "성북구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=fe810ba622ac479cae5624b65a6b8783&thumb=Y",
@@ -1414,24 +1266,8 @@
 
       "imgs": "/seoul/seongbuk-gu/image6.png"
     },
-    {
-      "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6120d2f4fe0f4ae5ab168ffd8036d2e5&thumb=Y",
+ 
 
-      "adress": "서울 성북구 보문로34다길 31 지하1층 도로명,/서울시 동선동3가 212-1 지번",
-      "ponnum": "010-9869-1182",
-
-      "imgs": "/seoul/seongbuk-gu/image7.png"
-    },
-    {
-      "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=1d79b30110aa45bf85a937458eb9ef1d&thumb=Y",
-
-      "adress": "서울 성북구 화랑로32길 100-1 도로명,/서울시 석관동 261-125 지번",
-      "ponnum": "02-961-3031",
-
-      "imgs": "/seoul/seongbuk-gu/image8.png"
-    },
     {
       "GUNAME": "성북구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b23b588de2a041c893cc2af2bf697490&thumb=Y",
@@ -1443,39 +1279,39 @@
     },
     {
       "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=eec7b903104d4a7d8c9f65233c238055&thumb=Y",
-
-      "adress": "서울 성북구 화랑로32길 100-1 도로명,/서울시 석관동 261-125 지번",
-      "ponnum": "02-961-3031",
-
-      "imgs": "/seoul/seongbuk-gu/image10.png"
-    },
-    {
-      "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=dcf3cff7a7ed4d7299c77ab192e5d897&thumb=Y",
-
-      "adress": "서울 성북구 정릉로23길 56 2층 도로명,/서울시 정릉동 405-4 지번",
-      "ponnum": "02-919-8059",
-
-      "imgs": "/seoul/seongbuk-gu/image11.png"
-    },
-    {
-      "GUNAME": "성북구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=42965632123d4d66bde0c02c1147991b&thumb=Y",
-
-      "adress": "서울 성북구 정릉로23길 56 2층 도로명,/서울시 정릉동 405-4 지번",
-      "ponnum": "02-919-8059",
-
-      "imgs": "/seoul/seongbuk-gu/image12.png"
-    },
-    {
-      "GUNAME": "성북구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f3a73e1213514eda896571a95e83ca29&thumb=Y",
 
       "adress": "서울특별시 성북구 길음로7길 20 도로명,/서울시 길음동 1286-8 지번",
       "ponnum": "02-6953-3201",
 
       "imgs": "/seoul/seongbuk-gu/image13.png"
+    },
+    {
+      "GUNAME": "성북구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e6429b351cb44cc6b4ad00090a265675&thumb=Y",
+
+      "adress": "서울 성북구 보문로34다길 31 지하1층 도로명,/서울시 동선동3가 212-1 지번",
+      "ponnum": "010-9869-1182",
+
+      "imgs": "/seoul/seongbuk-gu/image14.png"
+    },
+    {
+      "GUNAME": "성북구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7ca189baf15a4edea17041fab6e28edd&thumb=Y",
+
+      "adress": "서울 성북구 화랑로32길 100-1 도로명,/서울시 석관동 261-125 지번",
+      "ponnum": "02-961-3031",
+
+      "imgs": "/seoul/seongbuk-gu/image15.png"
+    },
+    {
+      "GUNAME": "성북구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=21ac79ab41e048e5938f1d90fb03183c&thumb=Y",
+
+      "adress": "서울 성북구 삼선교로16길 118 도로명,/서울시 삼선동2가 391-4 지번",
+      "ponnum": "02-2133-2657",
+
+      "imgs": "/seoul/seongbuk-gu/image16.png"
     },
     {
       "GUNAME": "종로구",
@@ -1547,30 +1383,7 @@
       "txt1": "유산소 기구 맞은편엔 스트레칭 할 수 있는 넓은 공간, 한쪽 벽면을 꽉 채운 거울이 있다. 강북문화예술회관 헬스장 탈의실&샤워실 있헤어드라이기는 수영장과 마찬가지로 100원 유료임.",
       "imgs": "/seoul/jongno-gu/sejongcenterfortheperformingarts/img20.png"
     },
-    {
-      "CODENAME": "독주/독창회",
-      "GUNAME": "종로구",
-      "TITLE": "이희승 피아노 독주회",
-      "DATE": "2024-03-23~2024-03-23",
-      "PLACE": "세종체임버홀",
-      "ORG_NAME": "세종문화회관",
-      "USE_TRGT": "2017년 3월 23일 출생자 까지",
-      "USE_FEE": "전석 초대",
-      "PLAYER": "",
-      "PROGRAM": "",
-      "ETC_DESC": "",
-      "ORG_LINK": "https://www.sejongpac.or.kr/portal/performance/performance/view.do?menuNo=200004&performIdx=35031",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=79e6d5d820e64edf86ff7b810c4e6e4d&thumb=Y",
-      "RGSTDATE": "2024-02-23",
-      "TICKET": "기관",
-      "STRTDATE": "2024-03-23 00:00:00.0",
-      "END_DATE": "2024-03-23 00:00:00.0",
-      "THEMECODE": "기타",
-      "LOT": "37.5726241",
-      "LAT": "126.9760053",
-      "IS_FREE": "유료",
-      "HMPG_ADDR": "https://culture.seoul.go.kr/culture/culture/cultureEvent/view.do?cultcode=145366&menuNo=200008"
-    },
+   
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7dd997739af14eb1953d269dc96d2f4a&thumb=Y",
@@ -1607,15 +1420,7 @@
 
       "imgs": "/seoul/jongno-gu/image4.png"
     },
-    {
-      "GUNAME": "종로구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=435df8b9fa384c548164b94c06ebde7a&thumb=Y",
-
-      "adress": "서울 종로구 세종대로 175 도로명/서울시 세종로 81-3 지번",
-      "ponnum": "02-399-1000",
-
-      "imgs": "/seoul/jongno-gu/image5.png"
-    },
+ 
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f164624c64db45e29a93acdb9b6fb4b0&thumb=Y",
@@ -1652,15 +1457,7 @@
 
       "imgs": "/seoul/jongno-gu/image9.png"
     },
-    {
-      "GUNAME": "종로구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=07a5c5ed56754ed6a6faa0eb317d7485&thumb=Y",
-
-      "adress": "서울 종로구 세종대로 175 도로명/서울시 세종로 81-3 지번",
-      "ponnum": "02-399-1000",
-
-      "imgs": "/seoul/jongno-gu/image10.png"
-    },
+ 
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bfd7402adf13494793c4501871334854&thumb=Y",
@@ -1697,15 +1494,7 @@
 
       "imgs": "/seoul/jongno-gu/image14.png"
     },
-    {
-      "GUNAME": "종로구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8d3d3667da6945cf9d49b9d1b7740898&thumb=Y",
 
-      "adress": "서울 종로구 세종대로 175 도로명/서울시 세종로 81-3 지번",
-      "ponnum": "02-399-1000",
-
-      "imgs": "/seoul/jongno-gu/image15.png"
-    },
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a722c7ca58cb4f72bf2b72f4f3c81262&thumb=Y",
@@ -1769,15 +1558,7 @@
 
       "imgs": "/seoul/jongno-gu/image22.png"
     },
-    {
-      "GUNAME": "종로구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ceb90ebb3aa84c119314ae935c5aaa54&thumb=Y",
 
-      "adress": "서울 종로구 세종대로 175 도로명/서울시 세종로 81-3 지번",
-      "ponnum": "02-3700-6324",
-
-      "imgs": "/seoul/jongno-gu/image23.png"
-    },
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=8239015c0dfb4837886e5ea10717e43a&thumb=Y",
@@ -1805,15 +1586,7 @@
 
       "imgs": "/seoul/jongno-gu/image26.png"
     },
-    {
-      "GUNAME": "종로구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3793d0e7515340f995c834f175680251&thumb=Y",
-
-      "adress": "서울 종로구 세종대로 175 세종이야기 도로명/서울시 세종로 81-3 지번",
-      "ponnum": "02-597-2004",
-
-      "imgs": "/seoul/jongno-gu/image27.png"
-    },
+    
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2771404b6cfe42f9b4fdddef7e06151d&thumb=Y",
@@ -1823,15 +1596,7 @@
 
       "imgs": "/seoul/jongno-gu/image28.png"
     },
-    {
-      "GUNAME": "종로구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c9f588c4f37f4b7f9b812d1b2dd34c1b&thumb=Y",
-
-      "adress": "서울 종로구 세종대로 175 도로명/서울시 세종로 81-3 지번",
-      "ponnum": "02)581-5404",
-
-      "imgs": "/seoul/jongno-gu/image29.png"
-    },
+ 
     {
       "GUNAME": "종로구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ba4db2cf9190431994bb65d1ee8ea4ba&thumb=Y",
@@ -1840,6 +1605,16 @@
       "ponnum": "02-766-9090",
 
       "imgs": "/seoul/jongno-gu/image30.png"
+    },
+ 
+    {
+      "GUNAME": "종로구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3cdefa3d97384b0482b182b92f436afa&thumb=Y",
+
+      "adress": "서울 종로구 세종대로 175 세종이야기 도로명/서울시 세종로 81-3 지번",
+      "ponnum": " 02-399-1000",
+
+      "imgs": "/seoul/jongno-gu/image31.png"
     },
     {
       "GUNAME": "도봉구",
@@ -1886,15 +1661,7 @@
 
       "imgs": "/seoul/dobong-gu/image5.png"
     },
-    {
-      "GUNAME": "도봉구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c54ea80ae26740369b23ec27fb78645d&thumb=Y",
 
-      "adress": "서울 도봉구 도봉로109길 11 2층 도로명/서울시 쌍문동 103-24 2층 지번",
-      "ponnum": "02-999-8845",
-
-      "imgs": "/seoul/dobong-gu/image6.png"
-    },
     {
       "GUNAME": "도봉구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a01ae03221b5486e8bf0d88d5219cd22&thumb=Y",
@@ -1915,13 +1682,23 @@
     },
     {
       "GUNAME": "도봉구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0bba289ed60142edabaa553d97b9600c&thumb=Y",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=66da99fb54944e98be2528620296cc8f&thumb=Y",
 
-      "adress": "서울 도봉구 우이천로 340 쌍문채움도서관 도로명/서울시 쌍문동 381-9 쌍문채움도서관 지번",
-      "ponnum": "02-998-0910",
+      "adress": "서울 도봉구 마들로 932 도로명/서울시 도봉동 6-5 지번",
+      "ponnum": "02-908-2915",
 
       "imgs": "/seoul/dobong-gu/image9.png"
     },
+    {
+      "GUNAME": "도봉구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c158191fd6fb448e8893fb692e440d52&thumb=Y",
+
+      "adress": "서울 도봉구 도봉로 552 도봉구민회관 도로명/서울시 창동 303 지번",
+      "ponnum": "02-908-2916",
+
+      "imgs": "/seoul/dobong-gu/image10.png"
+    },
+
     {
       "GUNAME": "노원구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=935b552fb75a4fab869f3422c880cbe8&thumb=Y",
@@ -1994,42 +1771,8 @@
 
       "imgs": "/seoul/nowon-gu/image8.png"
     },
-    {
-      "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=984209c241b44cf3a28e59b3d3107f65&thumb=Y",
-
-      "adress": "서울 노원구 동일로 1322-70 청년가게(달. 빛) 도로명/서울시 상계동 205-1 지번",
-      "ponnum": "02-2289-3427",
-
-      "imgs": "/seoul/nowon-gu/image9.png"
-    },
-    {
-      "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f1de13da87ad44e6a7492b6d5bf72dbb&thumb=Y",
-
-      "adress": "서울 노원구 중계로 181 노원문화예술회관 도로명/서울시 중계본동 364-3 지번",
-      "ponnum": "02-2289-3428",
-
-      "imgs": "/seoul/nowon-gu/image10.png"
-    },
-    {
-      "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=76d03cb4305d43049b587e11f7d2896d&thumb=Y",
-
-      "adress": "서울 노원구 한글비석로 160 서울시립과학관 도로명/서울시 하계동 21 서울시립과학관 지번",
-      "ponnum": "02-970-4581",
-
-      "imgs": "/seoul/nowon-gu/image11.png"
-    },
-    {
-      "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c8b02d4ef51f43148be48d7a076d5d1a&thumb=Y",
-
-      "adress": "서울 노원구 한글비석로 160 서울시립과학관 도로명/서울시 하계동 21 서울시립과학관 지번",
-      "ponnum": "02-970-4581",
-
-      "imgs": "/seoul/nowon-gu/image12.png"
-    },
+    
+  
     {
       "GUNAME": "노원구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=7141a1156b7c4ce3990de89290077ea6&thumb=Y",
@@ -2068,39 +1811,66 @@
     },
     {
       "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f7fe66c8a46f4b579a5b3da72d609743&thumb=Y",
-
-      "adress": "서울 노원구 공릉동 29-1 도로명/서울시 139240 지번",
-      "ponnum": "02-2289-3440",
-
-      "imgs": "/seoul/nowon-gu/image17.png"
-    },
-    {
-      "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b160c24929da42ee80c28a92e23f52b1&thumb=Y",
-
-      "adress": "서울 노원구 노해로 502 B1 도로명/서울시 상계동 723 지번",
-      "ponnum": "02-2289-3453",
-
-      "imgs": "/seoul/nowon-gu/image18.png"
-    },
-    {
-      "GUNAME": "노원구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=f6756b078485447a82fa75edab33c306&thumb=Y",
-
-      "adress": "서울 노원구 한글비석로 160 서울시립과학관 도로명/서울시 하계동 21 서울시립과학관 지번",
-      "ponnum": "02-970-4581",
-
-      "imgs": "/seoul/nowon-gu/image19.png"
-    },
-    {
-      "GUNAME": "노원구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=97c21fb37e0145ec9587bc73f70029e4&thumb=Y",
 
       "adress": "서울 노원구 동일로174길 27 도로명/서울시 공릉동 622 지번",
       "ponnum": "02-3399-2974",
 
       "imgs": "/seoul/nowon-gu/image20.png"
+    },
+    {
+      "GUNAME": "노원구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=c0d0b55acd9a49fb938d56e444675eb8&thumb=Y",
+
+      "adress": "서울특별시 노원구 수락산로8길 39 도로명/서울시 상계동 123-1 지번",
+      "ponnum": "02-2289-3461",
+
+      "imgs": "/seoul/nowon-gu/image21.png"
+    },
+    {
+      "GUNAME": "노원구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=6efd86462b1441f3b21cbd38c46d5c75&thumb=Y",
+
+      "adress": "서울 노원구 동일로 1238 도로명/서울시 중계동 508 지번",
+      "ponnum": "02-2124-5282",
+
+      "imgs": "/seoul/nowon-gu/image22.png"
+    },
+    {
+      "GUNAME": "노원구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ca0275a5db654ed9b314f4f18d38adfd&thumb=Y",
+
+      "adress": "서울 노원구 노해로 502 B1 도로명/서울시 상계동 723 B1 지번",
+      "ponnum": "02-2289-3453",
+
+      "imgs": "/seoul/nowon-gu/image23.png"
+    },
+    {
+      "GUNAME": "노원구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4fe32c07754146b78e4012fc5a0098be&thumb=Y",
+
+      "adress": "서울 노원구 동일로 1238 도로명/서울시 중계동 508 지번",
+      "ponnum": "02-2124-5273",
+
+      "imgs": "/seoul/nowon-gu/image24.png"
+    },
+    {
+      "GUNAME": "노원구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b198b1d3fb344df39daffe0dd67e77e0&thumb=Y",
+
+      "adress": "서울 노원구 동일로 1238 도로명/서울시 중계동 508 지번",
+      "ponnum": "02-2124-5248",
+
+      "imgs": "/seoul/nowon-gu/image25.png"
+    },
+    {
+      "GUNAME": "노원구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4509fea9380f48d5be73207aa2e5eb23&thumb=Y",
+
+      "adress": "서울 노원구 동일로 1238 도로명/서울시 중계동 508 지번",
+      "ponnum": "02-2124-5248",
+
+      "imgs": "/seoul/nowon-gu/image26.png"
     },
     {
       "GUNAME": "은평구",

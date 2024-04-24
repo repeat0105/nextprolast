@@ -1890,42 +1890,8 @@
 
       "imgs": "/seoul/eunpyeong-gu/image2.png"
     },
-    {
-      "GUNAME": "은평구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=2078d919589b456998e2133ee23c6d49&thumb=Y",
 
-      "adress": "서울 은평구 녹번로 16 은평문화예술회관 도로명/서울시 녹번동 85-4 지번",
-      "ponnum": "02-351-3339",
-
-      "imgs": "/seoul/eunpyeong-gu/image3.png"
-    },
-    {
-      "GUNAME": "은평구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a3a4d4eb160d4f23b580570986f4ad1e&thumb=Y",
-
-      "adress": "서울 은평구 연서로13길 29-23 구산동도서관마을 도로명/서울시 구산동 17-37 지번",
-      "ponnum": "02-357-0100",
-
-      "imgs": "/seoul/eunpyeong-gu/image4.png"
-    },
-    {
-      "GUNAME": "은평구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=b8e64296f7384327836cdf375049c34d&thumb=Y",
-
-      "adress": "서울 은평구 연서로50길 8 은평역사한옥박물관 도로명/서울시 진관동 135-5 은평역사한옥박물관 지번",
-      "ponnum": "02-351-8545",
-
-      "imgs": "/seoul/eunpyeong-gu/image5.png"
-    },
-    {
-      "GUNAME": "은평구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=bc1885ad77e74f00bc16f83394db14b1&thumb=Y",
-
-      "adress": "서울 은평구 연서로48길 74 도로명/서울시 진관동 182 지번",
-      "ponnum": "02-351-8543",
-
-      "imgs": "/seoul/eunpyeong-gu/image6.png"
-    },
+  
     {
       "GUNAME": "은평구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=e53db4d80a2345a6a62b93a37760cdf6&thumb=Y",
@@ -1944,15 +1910,7 @@
 
       "imgs": "/seoul/eunpyeong-gu/image8.png"
     },
-    {
-      "GUNAME": "은평구",
-      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=68fe6c5a39f744b6b4dfaa2e1b453e03&thumb=Y",
 
-      "adress": "서울 은평구 연서로50길 8 은평역사한옥박물관 도로명/서울시 진관동 135-5 은평역사한옥박물관 지번",
-      "ponnum": "02-351-8542",
-
-      "imgs": "/seoul/eunpyeong-gu/image9.png"
-    },
     {
       "GUNAME": "은평구",
       "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=20384f66edcc4e5eb73641b0f06a23aa&thumb=Y",
@@ -1961,6 +1919,60 @@
       "ponnum": "02-399-1000",
 
       "imgs": "/seoul/eunpyeong-gu/image10.png"
+    },
+    {
+      "GUNAME": "은평구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=ce5fee3cf6b043fbabded2fbe7c5a17e&thumb=Y",
+
+      "adress": "서울 은평구 연서로48길 74 도로명/서울시 진관동 182 지번",
+      "ponnum": "02-351-8543",
+
+      "imgs": "/seoul/eunpyeong-gu/image11.png"
+    },
+    {
+      "GUNAME": "은평구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=a264839babbb44b6a559922da491cfa3&thumb=Y",
+
+      "adress": "서울 은평구 증산로5길 6 구립증산정보도서관 도로명/서울시 증산동 173-8 지번",
+      "ponnum": "02-307-6030",
+
+      "imgs": "/seoul/eunpyeong-gu/image12.png"
+    },
+    {
+      "GUNAME": "은평구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=3a307e89b80d4debbe2aec418b38c20f&thumb=Y",
+
+      "adress": "서울 은평구 증산로5길 6 구립증산정보도서관 도로명/서울시 증산동 173-8 지번",
+      "ponnum": "02-307-6030",
+
+      "imgs": "/seoul/eunpyeong-gu/image13.png"
+    },
+    {
+      "GUNAME": "은평구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=0d95c89d5ea54f7b9745f8d0420e82f0&thumb=Y",
+
+      "adress": "서울 은평구 통일로62길 7 도로명/서울시 녹번동 7-1 지번",
+      "ponnum": "02-350-5629",
+
+      "imgs": "/seoul/eunpyeong-gu/image14.png"
+    },
+    {
+      "GUNAME": "은평구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=dabf296805324836b253a318e1f6dfb6&thumb=Y",
+
+      "adress": "서울 은평구 통일로62길 7 도로명/서울시 녹번동 7-1 지번",
+      "ponnum": "02-350-5629",
+
+      "imgs": "/seoul/eunpyeong-gu/image15.png"
+    },
+    {
+      "GUNAME": "은평구",
+      "MAIN_IMG": "https://culture.seoul.go.kr/cmmn/file/getImage.do?atchFileId=4dc9b0bb19bf47b681bc969db63c5da5&thumb=Y",
+
+      "adress": "서울 은평구 증산로5길 6 구립증산정보도서관 도로명/서울시 증산동 173-8 지번",
+      "ponnum": "02-307-6030",
+
+      "imgs": "/seoul/eunpyeong-gu/image16.png"
     },
     {
       "GUNAME": "서대문구",

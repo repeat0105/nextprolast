@@ -1,4 +1,4 @@
-// File: D:\kang\22주차\3일\nextpro\src\app\api\seoul\route.js
+// File: C:\Users\kang\Desktop\그린컴퓨터아카데미\22주차\3일\nextpro\src\app\api\seoul\route.js
 import * as entry from '../../../../../src/app/api/seoul/route.js'
 import type { NextRequest } from 'next/server.js'
 

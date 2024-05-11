@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  cursor: pointer;
+  background-color: #000;
+  width: 350px;
+  padding: 15px;
+  border-radius: 45px;
+
+  font-weight: bolder;
+  font-size: 16px;
+  margin: 80px 0;
+  opacity: 0.7;
+  >span {
+    color: #fff;
+    padding-left: 80px;
+    padding-top: 3px;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .login {
+    width: 250px;
+    >span{
+      padding-left:20px;
+    }
+  }
+}

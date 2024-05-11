@@ -1,0 +1,168 @@
+@charset "UTF-8";
+.festivaltitletop {
+  margin: 0 auto;
+  width: 768px;
+  margin-top: 100px;
+}
+
+.festivaltitle {
+  /* display: flex;
+  justify-content: center;
+  align-items: flex-start; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 70px 0 70px;
+  line-height: 0;
+  font-weight: 500;
+  text-shadow: 1px 2px 3px #808080;
+  font-size: 47px;
+}
+
+.festivaltitle p {
+  margin-bottom: 60px;
+}
+
+.areatopbest {
+  cursor: pointer;
+  width: 768px;
+  margin: 0 70px 0 70px;
+  margin-top: 30px;
+}
+
+.swiper {
+  width: 768px;
+  margin: 0 auto;
+}
+
+.swiper-horizontal {
+  margin: 0 70px 0 70px;
+}
+
+.swiperwidth {
+  width: 130px !important;
+  margin-right: 12px !important;
+}
+
+.swiper-slide > div {
+  background-color: #EEF5F8;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 15px;
+  width: 130px;
+  height: 60px;
+  margin-left: 10px;
+  border: none;
+}
+.swiper-slide > div > p {
+  text-align: center;
+  line-height: 60px;
+}
+.swiper-slide .area.active {
+  background-color: #0F3642;
+  color: #fff;
+}
+
+.swiper-slide:hover > div {
+  transform: skew(10deg);
+}
+
+.swiper-pagination-horizontal {
+  display: none;
+}
+
+.seoulapi {
+  width: 768px;
+  margin: 100px 70px 0 70px;
+}
+.seoulapi > p {
+  padding-right: 7px;
+  margin-bottom: 30px;
+}
+.seoulapi > div {
+  display: inline-block;
+  width: 300px;
+  padding-bottom: 30px;
+  margin-right: 20px;
+  position: relative;
+}
+.seoulapi > div > div > a > img {
+  border-radius: 16px;
+}
+.seoulapi > div > div > a > div {
+  position: absolute;
+  left: 0;
+  bottom: 32%;
+  width: 100%;
+}
+.seoulapi > div > div > a > div > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+.seoulapi > div > div > a > div > div > div {
+  color: #fff;
+  border: 1px solid #000;
+  padding: 5px 16px;
+  border-radius: 30px;
+  background-color: #FF3509;
+  border: none;
+}
+.seoulapi > div > div > a > div > div > p {
+  color: #464646;
+}
+.seoulapi > div > div > div {
+  width: 100%;
+}
+.seoulapi > div > div > div > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Style 26 */
+.toggler-wrapper.style-26 input[type=checkbox] {
+  display: none; /* 체크박스를 숨깁니다. */
+}
+
+.toggler-wrapper.style-26 .toggler-slider {
+  position: relative; /* 부모로부터의 상대적 위치 지정 */
+  width: 50px; /* 슬라이더 너비 */
+  height: 25px; /* 슬라이더 높이 */
+  background-color: #d9d9d9;
+  border-radius: 25px; /* 슬라이더를 반원으로 만듭니다. */
+}
+
+.toggler-wrapper.style-26 .toggler-knob {
+  position: absolute; /* 부모로부터의 절대적 위치 지정 */
+  width: 19px; /* 토글 버튼 너비 */
+  height: 19px; /* 토글 버튼 높이 */
+  border-radius: 50%; /* 토글 버튼을 원 모양으로 만듭니다. */
+  top: 3px; /* 토글 버튼을 중앙 정렬하기 위한 상단 여백 */
+  left: 3px; /* 토글 버튼을 초기 위치로 이동 */
+  background-color: #eb4f37;
+  transition: left 0.3s ease; /* 좌우 이동 애니메이션 */
+}
+
+.toggler-wrapper.style-26 .toggler-knob:after {
+  content: "0";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 75%;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: content 0.3s ease, color 0.3s ease; /* 내용 변경 애니메이션 */
+  color: white;
+}
+
+.toggler-wrapper.style-26 input[type=checkbox]:checked + .toggler-slider .toggler-knob {
+  left: calc(100% - 19px - 3px); /* 슬라이더 오른쪽 끝으로 토글 버튼 이동 */
+  background-color: #44cc66;
+}
+
+.toggler-wrapper.style-26 input[type=checkbox]:checked + .toggler-slider .toggler-knob:after {
+  content: "1"; /* 내용 변경 */
+}
